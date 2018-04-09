@@ -59,25 +59,25 @@ Nama Kelompok 7 :
 			• Sistem dapat menampilkan daftar sekolah dan lowongan pekerjaan hanya yang tersedia dan khusus disabilitas
 			• Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan
 
-===============================================================================================================================
 
-3.	Use Case Description
+3. Use Case Description
 
-A.	Use Case Name : Mencari Lowongan Pekerjaan
-B.	Actor : Perawat / Pendamping disabilitas / Penyandang disabilitas (yang memungkinkan mengoperasikan aplikasi)
-C.	Description : Pendamping atau penyandang disabilitas melakukan pencarian lowongan pekerjaan yang tersedia untuk disabilitas
-D.	Trigger : Pendamping atau penyandang disabilitas membutuhkan informasi lowongan pekerjaan terdekat yang diperuntukkan khusus penyandan disabilitas
-E.	Type : External
-F.	PreConditions :
-1)	Data lowongan pekerjaan khusus disabilitas up-to-date
-2)	Data lowongan pekerjaan yang tersimpan hanya lowongan pekerjaan khusus disabilitas
-3)	Sistem menampilkan halaman awal/home
-G.	Normal Course :
-1.0	Memilih menu halaman
-1.0.1	User melakukan klik pada menu cari lowongan pekerjaan
-H.	Post Conditions : Sistem menampilkan daftar lowongan pekerjaan yang tersedia
-I.	Exception :
-E.1. Tidak tersedia lowongan pekerjaan didekat / disekitar user.
-	1. Sistem menampilkan pesan “lowongan pekerjaan tidak tersedia di wilayah anda”
-E.2. Sambungan Internet terganggu
-	1. SIstem menampilkan pesan “mohon cek jaringan anda”
+         3.1 Use Case Name : Mencari Lowongan Pekerjaan
+         3.2 Actor : Perawat / Pendamping disabilitas / Penyandang disabilitas (yang memungkinkan mengoperasikan aplikasi)
+         3.3 Description : Pendamping atau penyandang disabilitas melakukan pencarian lowongan pekerjaan yang tersedia untuk        disabilitas
+         3.4 Trigger : Pendamping atau penyandang disabilitas membutuhkan informasi lowongan pekerjaan terdekat yang diperuntukkan khusus penyandan disabilitas
+         3.5 Type : External
+         3.6 PreConditions :
+                 3.6.1 Data lowongan pekerjaan khusus disabilitas up-to-date
+                 3.6.2 Data lowongan pekerjaan yang tersimpan hanya lowongan pekerjaan khusus disabilitas
+                 3.6.3 Sistem menampilkan halaman awal/home
+         3.7 Normal Course :
+                 3.7.1 Memilih menu halaman
+                 3.7.2 User melakukan klik pada menu cari lowongan pekerjaan
+         3.8 Post Conditions : Sistem menampilkan daftar lowongan pekerjaan yang tersedia
+         3.9 Exception :
+                 3.9.1 Tidak tersedia lowongan pekerjaan didekat / disekitar user.
+	               3.9.1.2 Sistem menampilkan pesan “lowongan pekerjaan tidak tersedia di wilayah anda”
+                 3.9.2 Sambungan Internet terganggu
+                       3.9.1.3 SIstem menampilkan pesan “mohon cek jaringan anda” 
+
