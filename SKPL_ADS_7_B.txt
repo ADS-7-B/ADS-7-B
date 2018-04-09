@@ -1,0 +1,62 @@
+Kelompok 7 :	1. Muhammad Kamal Ekmal		(150535603891)
+		2. M. Iqbal Fathurrozi			(150535601350)
+		3. Kirana Fimelya Saputri		(150535601369)
+
+
+System Requirement Specification Sistem Informasi EnableUs (SI untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas)
+
+1.	System Request 
+
+No	Elemen	Uraian
+1	Project Sponsor	Project Manager
+2	Business Needs	•	Pendamping disabilitas faham apa yang harus dilakukan untuk merawat penyandang disabilitas
+•	Penyandang disabilitas menemukan pekerjaan yang sesuai
+•	Penyandang disabilitas menemukan sekolah yang sesuai
+3	Business Requirements	•	Informasi tentang disabilitas (kebiasaan, perilaku, kekurangan, kebutuhan, sifat, dll)
+•	Informasi daftar lowongan pekerjaan khusus disabilitas terdekat
+•	Informasi daftar sekolah khusus disabilitas terdekat
+4	Business Value	•	Penyandang disabilitas mendapat pendidikan yang layak
+•	Penyandang disabilitas bisa bekerja dan berpenghasilan
+•	Penyandang disabilitas yang dirawat bisa merasa lebih nyaman dan merasa lebih dimengerti oleh perawat / pendamping
+•	Industri mendapatkan karyawan yang dibutuhkan
+•	Sekolah mendapatkan tambahan siswa pendaftar yang dibutuhkan
+5	Special Issues	•	Sistem dibangun berbasis android / mobile
+
+
+
+
+2.	Kebutuhan Fungsional dan Non Fungsional 
+A.	Kebutuhan Fungsional
+1)	Sistem dapat mengizinkan user memberi ulasan ketika sudah login
+2)	Sistem mengizinkan user menginputkan lowongan pekerjaan baru dengan konfirmasi dan validasi oleh sistem dan admin
+3)	Sistem mengizinkan user menginputkan sekolah baru dengan konfirmasi dan validasi oleh sistem dan admin
+4)	Sistem mengizinkan user mencari info disabilitas
+5)	Sistem mengizinkan user mencari info sekolah untuk disabilitas yang terdekat
+6)	Sistem mengizinkan user mencari info lowongan kerja
+7)	Sistem menampilkan daftar yang dicari user
+B.	Kebutuhan Non Fungsional
+1)	Setiap interaksi user dengan sistem dapat di load dengan cepat
+2)	Hanya admin yang bisa merubah isi / konten.
+3)	Sistem mengizinkan semua pengguna tanpa terkecuali
+4)	Sistem dapat menampilkan daftar sekolah dan lowongan pekerjaan hanya yang tersedia dan khusus disabilitas
+5)	Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan
+
+3.	Use Case Description
+A.	Use Case Name : Mencari Lowongan Pekerjaan
+B.	Actor : Perawat / Pendamping disabilitas / Penyandang disabilitas (yang memungkinkan mengoperasikan aplikasi)
+C.	Description : Pendamping atau penyandang disabilitas melakukan pencarian lowongan pekerjaan yang tersedia untuk disabilitas
+D.	Trigger : Pendamping atau penyandang disabilitas membutuhkan informasi lowongan pekerjaan terdekat yang diperuntukkan khusus penyandan disabilitas
+E.	Type : External
+F.	PreConditions :
+1)	Data lowongan pekerjaan khusus disabilitas up-to-date
+2)	Data lowongan pekerjaan yang tersimpan hanya lowongan pekerjaan khusus disabilitas
+3)	Sistem menampilkan halaman awal/home
+G.	Normal Course :
+1.0	Memilih menu halaman
+1.0.1	User melakukan klik pada menu cari lowongan pekerjaan
+H.	Post Conditions : Sistem menampilkan daftar lowongan pekerjaan yang tersedia
+I.	Exception :
+E.1. Tidak tersedia lowongan pekerjaan didekat / disekitar user.
+	1. Sistem menampilkan pesan “lowongan pekerjaan tidak tersedia di wilayah anda”
+E.2. Sambungan Internet terganggu
+	1. SIstem menampilkan pesan “mohon cek jaringan anda”
