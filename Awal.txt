@@ -3,15 +3,17 @@ Kelompok 7 :
 2. M. Iqbal Fathurrozi			(150535601350)
 3. Muhammad Kamal Ekmal			(150535603891)
 				
-
-System Requirement Specification Sistem Informasi EnableUs (SI Utuk Membantu Pendamping Penyandang Disabilitas dan Penyandang Disabilitas)
+               Enable Us (Sistem Informasi Untuk Membantu Pendamping Penyandang Disabilitas dan Penyandang Disabilitas)
 
 Spesifikasi Kebutuhan Perangkat Lunak (SKPL):
 1.Pendahuluan
   -Tujuan
+   (Perkenalan perangkat lunak yang kebutuhan softwarenya ada pada dokumen Enable Us)
   -Ruang Lingkup Perangkat Lunak
   -Target Audience
+   (Pendamping Penyandang Disabilitas dan Penyandang Disabilitas)
   -Definisi,Istilah dan Singkatan
+   (Enable Us)
   -Sistem Penomoran
   
 2.Deskripsi Umum
