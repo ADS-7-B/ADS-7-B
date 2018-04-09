@@ -1,4 +1,4 @@
-Kelompok 7 :	1. Muhammad Kamal Ekmal		(150535603891)
+Kelompok 7 :	1. Muhammad Kamal Ekmal			(150535603891)
 		2. M. Iqbal Fathurrozi			(150535601350)
 		3. Kirana Fimelya Saputri		(150535601369)
 
@@ -26,7 +26,9 @@ No	Elemen	Uraian
 
 
 2.	Kebutuhan Fungsional dan Non Fungsional 
+
 A.	Kebutuhan Fungsional
+
 1)	Sistem dapat mengizinkan user memberi ulasan ketika sudah login
 2)	Sistem mengizinkan user menginputkan lowongan pekerjaan baru dengan konfirmasi dan validasi oleh sistem dan admin
 3)	Sistem mengizinkan user menginputkan sekolah baru dengan konfirmasi dan validasi oleh sistem dan admin
@@ -34,7 +36,9 @@ A.	Kebutuhan Fungsional
 5)	Sistem mengizinkan user mencari info sekolah untuk disabilitas yang terdekat
 6)	Sistem mengizinkan user mencari info lowongan kerja
 7)	Sistem menampilkan daftar yang dicari user
+
 B.	Kebutuhan Non Fungsional
+
 1)	Setiap interaksi user dengan sistem dapat di load dengan cepat
 2)	Hanya admin yang bisa merubah isi / konten.
 3)	Sistem mengizinkan semua pengguna tanpa terkecuali
@@ -42,6 +46,7 @@ B.	Kebutuhan Non Fungsional
 5)	Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan
 
 3.	Use Case Description
+
 A.	Use Case Name : Mencari Lowongan Pekerjaan
 B.	Actor : Perawat / Pendamping disabilitas / Penyandang disabilitas (yang memungkinkan mengoperasikan aplikasi)
 C.	Description : Pendamping atau penyandang disabilitas melakukan pencarian lowongan pekerjaan yang tersedia untuk disabilitas
