@@ -4,6 +4,40 @@ Kelompok 7 :
 3. Muhammad Kamal Ekmal			(150535603891)
 				
 
-System Requirement Specification Sistem Informasi EnableUs (SI untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas)
+System Requirement Specification Sistem Informasi EnableUs (SI Utuk Membantu Pendamping Penyandang Disabilitas dan Penyandang Disabilitas)
 
-Spesifikasi Kebutuhan Perangkat Lunak
+Spesifikasi Kebutuhan Perangkat Lunak (SKPL):
+1.Pendahuluan
+  -Tujuan
+  -Ruang Lingkup Perangkat Lunak
+  -Target Audience
+  -Definisi,Istilah dan Singkatan
+  -Sistem Penomoran
+  
+2.Deskripsi Umum
+  -Tentang Perangkat Lunak
+  -Fungsi-Fungsi Perangkat Lunak
+  -Karakterisktik dan Klasifikasi Pengguna
+  -Lingkungan Operasi
+  -Batasan Desain dan Implementasi
+  -Dokumentasi Bagi Pengguna
+  -Asumsi dan Ketergantungan
+  
+3.Kebutuhan  Antarmuka Eksternal
+  -Antarmuka Pengguna
+  -Antarmuka Perangkat Keras
+  -Antarmuka Perangkat Lunak
+  -Antarmuka Komunikasi
+  
+4.Feature Sistem
+  -Feature Sistem 1
+  -Feature Sistem 2
+  
+5.Kebutuhan Non Fungsional Lainnya
+  -Kebutuhan Kinerja
+  -Kebutuhan Keamanan
+  -Kebutuhan Perlindungan Keamanan
+  -Atribut Kualitas Perangkat Lunak
+  -Aturan Penggunaan
+  
+6.Kebutuhan Lain
