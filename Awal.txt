@@ -3,43 +3,103 @@ Kelompok 7 :
 2. M. Iqbal Fathurrozi			(150535601350)
 3. Muhammad Kamal Ekmal			(150535603891)
 				
-               Enable Us (Sistem Informasi Untuk Membantu Pendamping Penyandang Disabilitas dan Penyandang Disabilitas)
+					Spesifikasi Kebutuhan Perangkat Lunak (SKPL)
+	    Enable Us (Sistem Informasi Untuk Membantu Pendamping Penyandang Disabilitas dan Penyandang Disabilitas)
 
-Spesifikasi Kebutuhan Perangkat Lunak (SKPL):
-1.Pendahuluan
-  -Tujuan
-   (Perkenalan perangkat lunak yang kebutuhan softwarenya ada pada dokumen Enable Us)
-  -Ruang Lingkup Perangkat Lunak
-  -Target Audience
-   (Pendamping Penyandang Disabilitas dan Penyandang Disabilitas)
-  -Definisi,Istilah dan Singkatan
-   (Enable Us)
-  -Sistem Penomoran
-  
+												
+
+
+Abstrak:
+........................................................................
+........................................................................
+........................................................................
+ 
+1.PENDAHULUAN 
+
+	1.1 Tujuan
+		1. Pendamping disabilitas mengerti apa yang harus dilakukan untuk merawat penyandang disabilitas
+		2. Penyandang disabilitas bisa menemukan pekerjaan yang sesuai
+		3. Penyandang disabilitas bisa menemukan sekolah yang sesuai
+
+	1.2 Ruang Lingkup Perangkat Lunak
+		........................................................................
+
+	1.3 Target Audience +++++++++++++++++++++++++++++++
+		Dokumen ini ditujukan kepada pendamping penyandang disabilitas dan penyandang disabilitas untuk dipahami
+		1.3.1 Pendamping Penyandang Disabilitas
+			  ........................................................................
+
+		1.3.2 Penyandang Disabilitas
+			  ........................................................................
+
+	1.4 Definisi, Istilah dan Singkatan +++++++++++++++++++++++++++++++
+		Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini, perlu dijelaskan
+		sebagaimana berikut:
+
+		 1. IEEE			  	    :Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
+		 2. SKPL				    :Spesifikasi Kebutuhan Perangkat Lunak atau
+		 3. SRS				        :Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
+		 4. Kebutuhan Fungsional    :Kebutuhan yang dapat dilakukan oleh admin atau pengguna
+		 5. Kebutuhan Non Fungsional:Fitur yang diberikan oleh pihak pengembang kepada Unable Us
+		 6. Use Case Diagram        :DIagram alur kerja sistem dalam penerapanya
+		 
+	1.5 Sistem Penomoran
+		........................................................................
+	
+	1.6 Referensi +++++++++++++++++++++++++++++++
+		 Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
+		•	IEEE Std. 1233, 1998 Edition IEEE Guide for Developing System Requirements Specifications
+		•	IEEE, Software Requirements Engineering, Second Edition, IEEE Computer Society Press, 2002.
+		•	Bray, Ian K. An Introduction to Requirement Engineering, 1st published, Addison-Wesley, 2002
+		•	Kotonya, Gerald and Sommerville, Ian. Requirement Engineering: Processes and Techniques, John Wiley & Sons Ltd, 1998
+		•	Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
+
+	1.7 Ikhtisar Dokumen +++++++++++++++++++++++++++++++
+		Diharapkan dengan pembuatan SKPL Unable Us dapat memberikan pengetahuan serta pemahaman pengelolah dalam melakukan pengoperasian Unable Us dalam penerapanya
+		serta Unable Us dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
+
 2.Deskripsi Umum
-  -Tentang Perangkat Lunak
-  -Fungsi-Fungsi Perangkat Lunak
-  -Karakterisktik dan Klasifikasi Pengguna
-  -Lingkungan Operasi
-  -Batasan Desain dan Implementasi
-  -Dokumentasi Bagi Pengguna
-  -Asumsi dan Ketergantungan
-  
-3.Kebutuhan  Antarmuka Eksternal
-  -Antarmuka Pengguna
-  -Antarmuka Perangkat Keras
-  -Antarmuka Perangkat Lunak
-  -Antarmuka Komunikasi
-  
-4.Feature Sistem
-  -Feature Sistem 1
-  -Feature Sistem 2
-  
-5.Kebutuhan Non Fungsional Lainnya
-  -Kebutuhan Kinerja
-  -Kebutuhan Keamanan
-  -Kebutuhan Perlindungan Keamanan
-  -Atribut Kualitas Perangkat Lunak
-  -Aturan Penggunaan
-  
-6.Kebutuhan Lain
+
+	2.1 Tentang Perangkat Lunak
+		2.1.1 Kebutuhan Fungsional+++++++++++++++++++++++++++++
+			  Secara umum kebutuhan fungsionalitas yang harus dipenuhi oleh pengembang dalam sistem informasi Enable Ussebagai berikut :
+			  1.Sistem dapat mengizinkan user memberi ulasan ketika sudah login
+			  2.Sistem mengizinkan user menginputkan lowongan pekerjaan baru dengan konfirmasi dan validasi oleh sistem dan admin
+			  3.Sistem mengizinkan user menginputkan sekolah baru dengan konfirmasi dan validasi oleh sistem dan admin
+			  4.Sistem mengizinkan user mencari info disabilitas
+			  5.Sistem mengizinkan user mencari info sekolah untuk disabilitas yang terdekat
+			  6.Sistem mengizinkan user mencari info lowongan kerja
+			  7.Sistem menampilkan daftar yang dicari user
+
+		2.1.2 Kebutuhan Non Fungsional+++++++++++++++++++++++++++++
+			  1.Setiap interaksi user dengan sistem dapat di load dengan cepat
+			  2.Hanya admin yang bisa merubah isi / konten.
+			  3.Sistem mengizinkan semua pengguna tanpa terkecuali
+			  4.Sistem dapat menampilkan daftar sekolah dan lowongan pekerjaan hanya yang tersedia dan khusus disabilitas
+			  5.Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan
+
+
+	2.2 Fungsi - Fungsi Perangkat Lunak
+		........................................................................
+		2.2.1 Use Case Diagram
+			  ........................................................................
+
+									
+	2.3 Karakteristik dan Klasifikasi Pengguna
+		2.3.1 Fungsi Perangkat Lunak
+			  ........................................................................
+		2.3.2 Keamanan Data
+			  ........................................................................
+
+	2.4 Lingkungan Operasi
+		Sistem dibangun berbasis android / mobile
+
+	2.5 Batasan Desain dan Implementasi
+		Seluruh metode dan teknologi memiliki kekurangan dan kelebihanya masing - masing termasuk dengan sistem berbasis android/mobile yang diadopsi oleh sistem informasi Unable Us
+		batasan yang dimiliki android adalah setiap aktifitas memerlukan kuota serta keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang cukup besar.
+	
+	2.6 Dokumentasi Bagi Pengguna
+		........................................................................
+		
+	2.7 Asumsi dan Ketergantungan
+		........................................................................
