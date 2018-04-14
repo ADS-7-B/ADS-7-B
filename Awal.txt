@@ -37,10 +37,11 @@ Abstrak:
 
 	    1. IEEE:Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
 	    2. SKPL:Spesifikasi Kebutuhan Perangkat Lunak atau
-	    3. SRS:Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
+	    3. SRS:Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi 
+	    spesifikasi kebutuhan pengguna
             4. Kebutuhan Fungsional:Kebutuhan yang dapat dilakukan oleh admin atau pengguna
 	    5. Kebutuhan Non Fungsional:Fitur yang diberikan oleh pihak pengembang kepada Unable Us
-            6. Use Case Diagram        :DIagram alur kerja sistem dalam penerapanya
+            6. Use Case Diagram :DIagram alur kerja sistem dalam penerapanya
 		 
 	1.5 Sistem Penomoran
 	    ........................................................................
@@ -69,7 +70,7 @@ Abstrak:
 	          6.Sistem mengizinkan user mencari info lowongan kerja
 		  7.Sistem menampilkan daftar yang dicari user
 
-	     2.1.2 Kebutuhan Non Fungsional+++++++++++++++++++++++++++++
+	     2.1.2 Kebutuhan Non Fungsional
 	           1.Setiap interaksi user dengan sistem dapat di load dengan cepat
 		   2.Hanya admin yang bisa merubah isi / konten.
 		   3.Sistem mengizinkan semua pengguna tanpa terkecuali
@@ -80,7 +81,7 @@ Abstrak:
 	2.2 Fungsi - Fungsi Perangkat Lunak
 	    ........................................................................
 	    2.2.1 Use Case Diagram
-	    ........................................................................
+	  	  ........................................................................
 
 									
 	2.3 Karakteristik dan Klasifikasi Pengguna
