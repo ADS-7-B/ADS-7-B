@@ -60,13 +60,13 @@ Abstrak:
 	    •Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
 
 	1.7 Ikhtisar Dokumen 
-	    Diharapkan dengan pembuatan SKPL Unable Us dapat memberikan pengetahuan serta pemahaman pengelolah dalam melakukan                 pengoperasian Enable Us dalam penerapanya serta Enable Us dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
+	    Diharapkan dengan pembuatan SKPL Enable Us dapat memberikan pengetahuan serta pemahaman pengelolah dalam melakukan                 pengoperasian Enable Us dalam penerapanya serta Enable Us dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
 
 2.Deskripsi Umum
 
 	2.1 Tentang Perangkat Lunak
 	    2.1.1 Kebutuhan Fungsional
-	          Secara umum kebutuhan fungsionalitas yang harus dipenuhi oleh pengembang dalam sistem informasi Enable Ussebagai berikut :
+	          Secara umum kebutuhan fungsionalitas yang harus dipenuhi oleh pengembang dalam sistem informasi Enable Us sebagai berikut :
 		  1.Sistem dapat mengizinkan user memberi ulasan ketika sudah login
 		  2.Sistem mengizinkan user menginputkan lowongan pekerjaan baru dengan konfirmasi dan validasi oleh sistem dan admin
 		  3.Sistem mengizinkan user menginputkan sekolah baru dengan konfirmasi dan validasi oleh sistem dan admin
