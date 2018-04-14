@@ -13,9 +13,7 @@ Disiapkan Oleh :
 sebagai kelengkapan Tugas Akhir prodi S1 Teknik Informatika
 Mata Kuliah Analisis dan Desain Sistem			
 
-												
-
-
+										
 Abstrak:
 ........................................................................
 ........................................................................
@@ -47,7 +45,7 @@ Abstrak:
 	    3. SRS:Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi 
 	    spesifikasi kebutuhan pengguna
             4. Kebutuhan Fungsional:Kebutuhan yang dapat dilakukan oleh admin atau pengguna
-	    5. Kebutuhan Non Fungsional:Fitur yang diberikan oleh pihak pengembang kepada Unable Us
+	    5. Kebutuhan Non Fungsional:Fitur yang diberikan oleh pihak pengembang kepada Enable Us
             6. Use Case Diagram :DIagram alur kerja sistem dalam penerapanya
 		 
 	1.5 Sistem Penomoran
@@ -62,7 +60,7 @@ Abstrak:
 	    •Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
 
 	1.7 Ikhtisar Dokumen 
-	    Diharapkan dengan pembuatan SKPL Unable Us dapat memberikan pengetahuan serta pemahaman pengelolah dalam melakukan                 pengoperasian Unable Us dalam penerapanya serta Unable Us dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
+	    Diharapkan dengan pembuatan SKPL Unable Us dapat memberikan pengetahuan serta pemahaman pengelolah dalam melakukan                 pengoperasian Enable Us dalam penerapanya serta Enable Us dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
 
 2.Deskripsi Umum
 
@@ -84,7 +82,6 @@ Abstrak:
 		   4.Sistem dapat menampilkan daftar sekolah dan lowongan pekerjaan hanya yang tersedia dan khusus disabilitas
 		   5.Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan
 
-
 	2.2 Fungsi - Fungsi Perangkat Lunak
 	    ........................................................................
 	    2.2.1 Use Case Diagram
@@ -101,7 +98,7 @@ Abstrak:
 	    Sistem dibangun berbasis android / mobile
 
 	2.5 Batasan Desain dan Implementasi
-	    Seluruh metode dan teknologi memiliki kekurangan dan kelebihanya masing - masing termasuk dengan sistem berbasis android/mobile yang diadopsi oleh sistem informasi Unable Usbatasan yang dimiliki android adalah setiap aktifitas memerlukan kuota serta keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang cukup besar.
+	    Seluruh metode dan teknologi memiliki kekurangan dan kelebihanya masing - masing termasuk dengan sistem berbasis android/mobile yang diadopsi oleh sistem informasi Enable Us batasan yang dimiliki android adalah setiap aktifitas memerlukan kuota serta keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang cukup besar.
 	
 	2.6 Dokumentasi Bagi Pengguna
 	     ........................................................................
