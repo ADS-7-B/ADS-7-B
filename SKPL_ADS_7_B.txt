@@ -15,9 +15,8 @@ Mata Kuliah Analisis dan Desain Sistem
 
 										
 Abstrak:
-........................................................................
-........................................................................
-........................................................................
+Hampir semua penyandang disabilitas membutuhkan bantuan pembantu atau pendamping untuk aktivitas kesehariannya, maka perlu untuk membuat sistem informasi untuk membantu memberikan informasi-informasi tentang kebiasaan dan kebutuhan penyandang disabilitas, dengan ini maka pendamping disabilitas dapat mengetahui apa yang mereka butuhkan untuk membantu penyandang disabilitas.
+Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari-hari layaknya orang normal, antara lain yaitu kebutuhan untuk mencari ilmu, dan mencari nafkah atau bekerja. Maka dari itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian sekolah khusus disabilitas dan pencarian lowongan pekerjaan khusus disabilitas.
  
 1.Pendahuluan 
 
@@ -110,7 +109,7 @@ Abstrak:
 3.Kebutuhan Antarmuka Eksternal
   ..............................................................................................
 
-4.Faature Sistem
+4.Fitur Sistem
   ..............................................................................................
 
   
