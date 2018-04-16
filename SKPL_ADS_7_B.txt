@@ -30,13 +30,18 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
 	    disediakan juga beberapa informasi mengenai sekolah dan pekerjaan yang ditujukan khusus untuk penyandang disabilitas.
 
 	1.3 Target Audience 
-	    Dokumen ini ditujukan kepada pendamping penyandang disabilitas dan penyandang disabilitas untuk dipahami
+	    Dokumen ini ditujukan kepada pendamping penyandang disabilitas untuk dipahami, penyandang disabilitas untuk kebutuhan mencari pekerjaan dan sekolah, dan pihak sekolah dan instansi atau perusahaan untuk dapat melakukan input lowongan sekolah atau lowongan pekerjaan khusus disabilitas.
 	    1.3.1 Pendamping Penyandang Disabilitas
-		 ........................................................................
-
+		 1. Diharapkan dapat menggunakan aplikasi dengan baik
+		 2. Diharapkan dapat memahami konten dengan baik
+		 3. Diharapkan dapat memberikan ulasan terhadap konten apabila ada yang perlu diulas
 	    1.3.2 Penyandang Disabilitas
-		  ........................................................................
-
+		 1. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian sekolah
+		 2. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian pekerjaan
+		 3. Diharapkan penyandang disabilitas mendapatkan perawatan atau pelayanan dari pendamping dengan baik
+	     1.3.2 Pihak sekolah dan perusahaan
+		 1. Diharapkan sekolah dapat melakukan input info sekolah dengan benar
+		 2. Diharapkan perusahaan dapat melakukan input lowongan pekerjaan dengan benar
 	1.4 Definisi, Istilah dan Singkatan 
 	    Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,          	 perlu dijelaskan sebagaimana berikut:
 
