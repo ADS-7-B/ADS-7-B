@@ -26,7 +26,8 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
 	    3. Penyandang disabilitas bisa menemukan sekolah yang sesuai
 
 	1.2 Ruang Lingkup Perangkat Lunak
-	    ........................................................................
+	    Sistem informasi ini menyediakan beberapa informasi tentang disabilitas serta solusi untuk mengatasi masalah tersebut, 
+	    disediakan juga beberapa informasi mengenai sekolah dan pekerjaan yang ditujukan khusus untuk penyandang disabilitas.
 
 	1.3 Target Audience 
 	    Dokumen ini ditujukan kepada pendamping penyandang disabilitas dan penyandang disabilitas untuk dipahami
@@ -37,7 +38,7 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
 		  ........................................................................
 
 	1.4 Definisi, Istilah dan Singkatan 
-	    Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,          	    perlu dijelaskan sebagaimana berikut:
+	    Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,          	 perlu dijelaskan sebagaimana berikut:
 
 	    1. IEEE:Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
 	    2. SKPL:Spesifikasi Kebutuhan Perangkat Lunak atau
