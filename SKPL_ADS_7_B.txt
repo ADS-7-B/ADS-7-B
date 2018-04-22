@@ -15,8 +15,8 @@ Mata Kuliah Analisis dan Desain Sistem
 
 										
 Abstrak:
-Hampir semua penyandang disabilitas membutuhkan bantuan pembantu atau pendamping untuk aktivitas kesehariannya, maka perlu untuk membuat sistem informasi untuk membantu memberikan informasi-informasi tentang kebiasaan dan kebutuhan penyandang disabilitas, dengan ini maka pendamping disabilitas dapat mengetahui apa yang mereka butuhkan untuk membantu penyandang disabilitas.
-Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari-hari layaknya orang normal, antara lain yaitu kebutuhan untuk mencari ilmu, dan mencari nafkah atau bekerja. Maka dari itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian sekolah khusus disabilitas dan pencarian lowongan pekerjaan khusus disabilitas.
+Hampir semua penyandang disabilitas membutuhkan bantuan pembantu atau pendamping untuk aktivitas kesehariannya, maka dari itu perlu untuk membuat sistem informasi untuk membantu memberikan informasi-informasi tentang kebiasaan dan kebutuhan penyandang disabilitas, dengan ini maka pendamping disabilitas dapat mengetahui apa yang mereka butuhkan untuk membantu penyandang disabilitas.
+Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari-hari layaknya orang normal, antara lain yaitu kebutuhan untuk mencari ilmu, dan mencari nafkah atau bekerja. Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian sekolah khusus disabilitas dan pencarian lowongan pekerjaan khusus disabilitas.
  
 1.Pendahuluan 
 
@@ -30,7 +30,7 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
 	    disediakan juga beberapa informasi mengenai sekolah dan pekerjaan yang ditujukan khusus untuk penyandang disabilitas.
 
 	1.3 Target Audience 
-	    Dokumen ini ditujukan kepada pendamping penyandang disabilitas untuk dipahami, penyandang disabilitas untuk kebutuhan mencari pekerjaan dan sekolah, dan pihak sekolah dan instansi atau perusahaan untuk dapat melakukan input lowongan sekolah atau lowongan pekerjaan khusus disabilitas.
+	    Dokumen ini ditujukan kepada pendamping penyandang disabilitas untuk dipahami, penyandang disabilitas untuk kebutuhan mencari pekerjaan dan sekolah,pihak sekolah dan instansi atau perusahaan untuk dapat melakukan input lowongan sekolah atau lowongan pekerjaan khusus disabilitas.
 	    1.3.1 Pendamping Penyandang Disabilitas
 		 1. Diharapkan dapat menggunakan aplikasi dengan baik
 		 2. Diharapkan dapat memahami konten dengan baik
@@ -39,22 +39,24 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
 		 1. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian sekolah
 		 2. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian pekerjaan
 		 3. Diharapkan penyandang disabilitas mendapatkan perawatan atau pelayanan dari pendamping dengan baik
-	     1.3.2 Pihak sekolah dan perusahaan
-		 1. Diharapkan sekolah dapat melakukan input info sekolah dengan benar
+	    1.3.2 Pihak sekolah dan perusahaan
+		 1. Diharapkan pihak sekolah dapat melakukan input info sekolah dengan benar
 		 2. Diharapkan perusahaan dapat melakukan input lowongan pekerjaan dengan benar
+		 
 	1.4 Definisi, Istilah dan Singkatan 
-	    Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,          	 perlu dijelaskan sebagaimana berikut:
+	    Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,perlu dijelaskan sebagaimana berikut:
 
 	    1. IEEE:Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
-	    2. SKPL:Spesifikasi Kebutuhan Perangkat Lunak atau
+	    2. SKPL:Spesifikasi Kebutuhan Perangkat Lunak 
 	    3. SRS:Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi 
 	    spesifikasi kebutuhan pengguna
             4. Kebutuhan Fungsional:Kebutuhan yang dapat dilakukan oleh admin atau pengguna
 	    5. Kebutuhan Non Fungsional:Fitur yang diberikan oleh pihak pengembang kepada Enable Us
-            6. Use Case Diagram :DIagram alur kerja sistem dalam penerapanya
-		 
+            6. DFD:Data Flow Diagram. Diagram yang menggambarkan aliran data. 
+	    7. Use Case : Kegiatan atau urutan interaksi yang saling berkaitan antara sistem dan aktor
+
 	1.5 Sistem Penomoran
-	    ........................................................................
+	    Ada beberapa hal dalam dokumen ini yang perlu diberi nomor. Tujuannya untuk mempermudah audience dalam pengidentifikasian. Untuk daftar penamaan Sistem Informasi Perangkat lunak dijelaskan pada tabel dibawah ini :
 	
 	1.6 Referensi
 	    Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
@@ -65,39 +67,21 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
 	    •Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
 
 	1.7 Ikhtisar Dokumen 
-	    Diharapkan dengan pembuatan SKPL Enable Us dapat memberikan pengetahuan serta pemahaman pengelolah dalam melakukan                 pengoperasian Enable Us dalam penerapanya serta Enable Us dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
+	    Diharapkan dengan pembuatan SKPL Enable Us dapat memberikan pengetahuan serta pemahaman pengelolah dalam melakukan pengoperasian Enable Us dalam penerapanya serta Enable Us dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
 
 2.Deskripsi Umum
 
 	2.1 Tentang Perangkat Lunak
-	    2.1.1 Kebutuhan Fungsional
-	          Secara umum kebutuhan fungsionalitas yang harus dipenuhi oleh pengembang dalam sistem informasi Enable Us sebagai berikut :
-		  1.Sistem dapat mengizinkan user memberi ulasan ketika sudah login
-		  2.Sistem mengizinkan user menginputkan lowongan pekerjaan baru dengan konfirmasi dan validasi oleh sistem dan admin
-		  3.Sistem mengizinkan user menginputkan sekolah baru dengan konfirmasi dan validasi oleh sistem dan admin
-		  4.Sistem mengizinkan user mencari info disabilitas
-	          5.Sistem mengizinkan user mencari info sekolah untuk disabilitas yang terdekat
-	          6.Sistem mengizinkan user mencari info lowongan kerja
-		  7.Sistem menampilkan daftar yang dicari user
-
-	     2.1.2 Kebutuhan Non Fungsional
-	           1.Setiap interaksi user dengan sistem dapat di load dengan cepat
-		   2.Hanya admin yang bisa merubah isi / konten.
-		   3.Sistem mengizinkan semua pengguna tanpa terkecuali
-		   4.Sistem dapat menampilkan daftar sekolah dan lowongan pekerjaan hanya yang tersedia dan khusus disabilitas
-		   5.Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan
-
+	    Enable Us merupakan sistem informasi berbasis android /mobile untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas untuk aktivitas kesehariannya, dengan sistem informasi ini maka pendamping disabilitas dapat mengetahui apa yang mereka butuhkan untuk membantu penyandang disabilitas.Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian sekolah khusus disabilitas dan pencarian lowongan pekerjaan khusus disabilitas.
+ 	    
 	2.2 Fungsi - Fungsi Perangkat Lunak
-	    ........................................................................
-	    2.2.1 Use Case Diagram
-	  	  ........................................................................
-
+	    Fungsi utama sistem informasi Enable Us ini yaitu untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas untuk bisa menemukan pekerjaan dan sekolah yang sesuai
 									
 	2.3 Karakteristik dan Klasifikasi Pengguna
-	    2.3.1 Fungsi Perangkat Lunak
-		  ........................................................................
-	    2.3.2 Keamanan Data
-		  ........................................................................
+	    Hal yang dapat dilakukan pengguna diantaranya adalah:
+	    -Melihat informasi disabilitas
+            -Melihat informasi sekolah
+            -Melihat Informasi pekerjaan
 
 	2.4 Lingkungan Operasi
 	    Sistem dibangun berbasis android / mobile
@@ -106,17 +90,61 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
 	    Seluruh metode dan teknologi memiliki kekurangan dan kelebihanya masing - masing termasuk dengan sistem berbasis android/mobile yang diadopsi oleh sistem informasi Enable Us batasan yang dimiliki android adalah setiap aktifitas memerlukan kuota serta keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang cukup besar.
 	
 	2.6 Dokumentasi Bagi Pengguna
-	     ........................................................................
-		
 	2.7 Asumsi dan Ketergantungan
-	    ........................................................................
+	    
 		
-		
-3.Kebutuhan Antarmuka Eksternal
-  ..............................................................................................
+3.Deskripsi Kebutuhan
+  	3.1 Kebutuhan Antarmuka Eksternal
+	    3.1.1 Antarmuka Pemakai
+	          User interface yang digunakan untuk mengoperasikan aplikasi ini adalah:
+	          -Tampilan awal 
+                  -Tampilan pencarian informasi disabilitas
+                  -Tampilan pencarian informasi sekolah
+	          -Tampilan pencarian informasi pekerjaan
+	    3.1.2 Antarmuka Perangkat Keras
+	    3.1.3 Antarmuka Perangkat Lunak
+	    3.1.4 Antarmuka Komunikasi
 
-4.Fitur Sistem
-  ..............................................................................................
+        3.2 Kebutuhan Fungsional
+            3.2.1 Diagram Konteks
+            3.2.2 DVD Level 1
+	    3.2.3 Spesifikasi Proses
+            3.2.4 Data Store
+
+	3.3 Kebutuhan Data
+	    3.3.1 E-R diagram
+
+        3.4 Kebutuhan Non Fungsional
+
+        3.5 Batasan Perancangan
+
+        3.6 Kerunutan
+            3.6.1 Data Store vs E-R
+		 
+
+        3.7 Ringkasan Kebutuhan 
+	    Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.
+	    Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, 
+            karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhannya.
+            3.7.1 Kebutuhan Fungsional
+		  1)Sistem dapat mengizinkan user memberi ulasan ketika sudah login
+		  2)Sistem mengizinkan user menginputkan lowongan pekerjaan baru dengan konfirmasi dan validasi oleh sistem dan admin
+		  3)Sistem mengizinkan user menginputkan sekolah baru dengan konfirmasi dan validasi oleh sistem dan admin
+		  4)Sistem mengizinkan user mencari info disabilitas
+		  5)Sistem mengizinkan user mencari info sekolah untuk disabilitas yang terdekat
+		  6)Sistem mengizinkan user mencari info lowongan kerja
+		  7)Sistem menampilkan daftar yang dicari user
+
+            3.7.2 Kebutuhan Non Fungsional
+		  1)Setiap interaksi user dengan sistem dapat di load dengan cepat
+		  2)Hanya admin yang bisa merubah isi / konten.
+		  3)Sistem mengizinkan semua pengguna tanpa terkecuali
+	          4)Sistem dapat menampilkan daftar sekolah dan lowongan pekerjaan hanya yang tersedia dan khusus disabilitas
+	          5)Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan
+
+		  
+            
+
 
   
   
