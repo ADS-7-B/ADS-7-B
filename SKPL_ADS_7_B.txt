@@ -3,9 +3,7 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 <Sistem Informasi Untuk Membantu Pendamping Penyandang Disabilitas dan Penyandang Disabilitas>
 <Enable Us>
 
-<09/04/2018> DRAF
-
-Disiapkan Oleh :	
+Kelompok :	
 <Kirana Fimelya Saputri	 150535601369>
 <M. Iqbal Fathurrozi	 150535601350>
 <Muhammad Kamal Ekmal	 150535603891>
@@ -105,21 +103,19 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
 	    3.1.3 Antarmuka Perangkat Lunak
 	    3.1.4 Antarmuka Komunikasi
 
-        3.2 Kebutuhan Fungsional
-            3.2.1 Diagram Konteks
-            3.2.2 DVD Level 1
-	    3.2.3 Spesifikasi Proses
-            3.2.4 Data Store
+        3.2 DFD
+            3.2.1 Diagram Konteks 
+	    (Lampiran)
+            3.2.2 Data Store
+	    (Lampiran)
 
 	3.3 Kebutuhan Data
 	    3.3.1 E-R diagram
 
-        3.4 Kebutuhan Non Fungsional
+        3.4 Batasan Perancangan
 
-        3.5 Batasan Perancangan
-
-        3.6 Kerunutan
-            3.6.1 Data Store vs E-R
+        3.5 Kerunutan
+            3.5.1 Data Store vs E-R
 		 
 
         3.7 Ringkasan Kebutuhan 
