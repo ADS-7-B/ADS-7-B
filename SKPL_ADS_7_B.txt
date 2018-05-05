@@ -63,7 +63,7 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 
   1.5 Sistem Penomoran
       Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. Untuk daftar penamaan perangkat lunak dijelaskan pada tabel 
-      dibawah ini :
+      dibawah ini:
       Tabel 2 Aturan penomoran
 	-------------------------------------------------------------------------------------------
 	|Nama-ID                  | Aturan penamaan      | Deskripsi                              |
