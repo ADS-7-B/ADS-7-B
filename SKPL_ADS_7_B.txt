@@ -48,7 +48,6 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
       Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,perlu dijelaskan 
       sebagaimana berikut:
       Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
-
       Tabel 1 Definisi, istilah dan singkatan
 ----------------------------------------------------------------------------------------------------------------------------------------
 |Definisi, Istilah dan/atau Singkatan   | Penjelasan                                                                                   |
@@ -57,7 +56,7 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 |ERD                                    | Entity Relationship Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya|
 |Interface                              | Antarmuka antara perangkat lunak dan pengguna  		   			       |
 |SKPL					| Spesifikasi Kebutuhan Perangkat Lunak 						       |
-|Kebutuhan Fungsional			| Kebutuhan yang dapat dilakukan oleh admin atau pengguna 	              	               | |Kebutuhan Non Fungsional	         | Fitur yang diberikan oleh pihak pengembang kepada Enable Us			                |
+|IEEE 					| Institute of Electrical and Electronics Engineers	              	                       | |SRS 				         | Dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna     |
 |Use Case				| Kegiatan atau urutan interaksi yang saling berkaitan antara sistem dan aktor		       |
 ----------------------------------------------------------------------------------------------------------------------------------------
 
