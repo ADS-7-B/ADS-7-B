@@ -43,7 +43,6 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
 		 
 	1.4 Definisi, Istilah dan Singkatan 
 	    Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,perlu dijelaskan sebagaimana berikut:
-
 	    1. IEEE:Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
 	    2. SKPL:Spesifikasi Kebutuhan Perangkat Lunak 
 	    3. SRS:Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi 
@@ -82,7 +81,17 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
             -Melihat Informasi pekerjaan
 
 	2.4 Lingkungan Operasi
-	    Sistem dibangun berbasis android / mobile
+	    Aplikasi ini akan berjalan pada spesifikasi:
+	    => Server:
+	      - RAM minimal 2 GB
+	      - Harddisk minimal 75 GB
+	      - Terhubung dengan internet
+	      
+	    => Client:
+	    Android dengan spesifikasi:
+	       - RAM minimal 1 GB
+	       - Harddisk minimal 35 MB
+	       - Terhubung dengan internet
 
 	2.5 Batasan Desain dan Implementasi
 	    Seluruh metode dan teknologi memiliki kekurangan dan kelebihanya masing - masing termasuk dengan sistem berbasis android/mobile yang diadopsi oleh sistem informasi Enable Us batasan yang dimiliki android adalah setiap aktifitas memerlukan kuota serta keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang cukup besar.
@@ -100,22 +109,40 @@ Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari
                   -Tampilan pencarian informasi sekolah
 	          -Tampilan pencarian informasi pekerjaan
 	    3.1.2 Antarmuka Perangkat Keras
+	    	  - OS merupakan android
+		  - RAM minimal 1 G
+		  - Memori Internal (harddisk) minimal tersedia 35 MB
+		  - Memiliki fitur GPS
 	    3.1.3 Antarmuka Perangkat Lunak
+	    	  - Database MySQL
 	    3.1.4 Antarmuka Komunikasi
+	    	  - Wifi
 
         3.2 DFD
-            3.2.1 Diagram Konteks 
-	    (Lampiran)
-            3.2.2 Data Store
-	    (Lampiran)
+            3.2.1 Diagram Konteks
+	    3.2.2 DFD Level
+            3.2.3 Spesifikasi Proses
+	    3.2.4.Data Store
 
 	3.3 Kebutuhan Data
 	    3.3.1 E-R diagram
 
-        3.4 Batasan Perancangan
+        3.4 Kebutuhan Fungsional
+	    - Sistem dapat dijalankan di platform android
+	    - Sistem memiliki antarmuka yang mudah dipahami
+	    - Kebutuhan RAM minimal 1 GB
+	    - System memudahkan user untuk mencari informasi sekolah dan lowongan pekerjaan untuk penyandang disabilitas
+	    - Sistem tidak menyediakan pembuatan akun pengguna
+	    - Hanya admin yang dapat merubah isi konten
+	    
+	3.5 Batasan Perancangan
+	    Adapun batasan dalam perancangan aplikasi ini antara lain:
+	    - Tampilan web dibuat dengan menggunakan Photoshop dan Corel Draw.
+	    - Text editor yang digunakan adalah Notepad++ dan/atau Sublime Text.
+	    - Bahasa Pemrograman yang digunakan adalah PHP, MySQL dan HTML
 
-        3.5 Kerunutan
-            3.5.1 Data Store vs E-R
+        3.6 Kerunutan
+            3.6.1 Data Store vs E-R
 		 
 
         3.7 Ringkasan Kebutuhan 
