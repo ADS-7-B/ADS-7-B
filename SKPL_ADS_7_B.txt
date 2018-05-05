@@ -10,160 +10,206 @@ Kelompok :
 				
 sebagai kelengkapan Tugas Akhir prodi S1 Teknik Informatika
 Mata Kuliah Analisis dan Desain Sistem			
-
 										
 Abstrak:
-Hampir semua penyandang disabilitas membutuhkan bantuan pembantu atau pendamping untuk aktivitas kesehariannya, maka dari itu perlu untuk membuat sistem informasi untuk membantu memberikan informasi-informasi tentang kebiasaan dan kebutuhan penyandang disabilitas, dengan ini maka pendamping disabilitas dapat mengetahui apa yang mereka butuhkan untuk membantu penyandang disabilitas.
-Penyandang disabilitas juga mempunyai kebutuhan untuk menjalani aktivitas sehari-hari layaknya orang normal, antara lain yaitu kebutuhan untuk mencari ilmu, dan mencari nafkah atau bekerja. Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian sekolah khusus disabilitas dan pencarian lowongan pekerjaan khusus disabilitas.
+Hampir semua penyandang disabilitas membutuhkan bantuan pembantu atau pendamping untuk aktivitas kesehariannya, maka dari itu perlu untuk membuat sistem informasi untuk membantu memberikan informasi-informasi tentang kebiasaan dan kebutuhan penyandang disabilitas, dengan ini maka pendamping disabilitas dapat mengetahui apa yang mereka butuhkan untuk membantu penyandang disabilitas.Penyandang disabilitas juga mempunyai  kebutuhan untuk menjalani aktivitas sehari-hari layaknya orang normal, antara lain yaitu kebutuhan untuk mencari ilmu, dan mencari nafkah atau bekerja.Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian sekolah khusus disabilitas dan pencarian lowongan pekerjaan khusus disabilitas.
  
 1.Pendahuluan 
+  1.1 Tujuan
+      1. Pendamping disabilitas mengerti apa yang harus dilakukan untuk merawat penyandang disabilitas
+      2. Penyandang disabilitas bisa menemukan pekerjaan yang sesuai
+      3. Penyandang disabilitas bisa menemukan sekolah yang sesuai
+      
+  1.2 Ruang Lingkup Perangkat Lunak
+      Sistem informasi ini menyediakan beberapa informasi tentang disabilitas serta solusi untuk mengatasi masalah tersebut, 
+      disediakan juga beberapa informasi mengenai sekolah dan pekerjaan yang ditujukan khusus untuk penyandang disabilitas.
 
-	1.1 Tujuan
-	    1. Pendamping disabilitas mengerti apa yang harus dilakukan untuk merawat penyandang disabilitas
-	    2. Penyandang disabilitas bisa menemukan pekerjaan yang sesuai
-	    3. Penyandang disabilitas bisa menemukan sekolah yang sesuai
-
-	1.2 Ruang Lingkup Perangkat Lunak
-	    Sistem informasi ini menyediakan beberapa informasi tentang disabilitas serta solusi untuk mengatasi masalah tersebut, 
-	    disediakan juga beberapa informasi mengenai sekolah dan pekerjaan yang ditujukan khusus untuk penyandang disabilitas.
-
-	1.3 Target Audience 
-	    Dokumen ini ditujukan kepada pendamping penyandang disabilitas untuk dipahami, penyandang disabilitas untuk kebutuhan mencari pekerjaan dan sekolah,pihak sekolah dan instansi atau perusahaan untuk dapat melakukan input lowongan sekolah atau lowongan pekerjaan khusus disabilitas.
+  1.3 Target Audience 
+       Dokumen ini ditujukan kepada pendamping penyandang disabilitas untuk dipahami, penyandang disabilitas untuk kebutuhan mencari 
+       pekerjaan dan sekolah,pihak sekolah dan instansi atau perusahaan untuk dapat melakukan input lowongan sekolah atau lowongan  
+       pekerjaan khusus disabilitas.
 	    1.3.1 Pendamping Penyandang Disabilitas
-		 1. Diharapkan dapat menggunakan aplikasi dengan baik
-		 2. Diharapkan dapat memahami konten dengan baik
-		 3. Diharapkan dapat memberikan ulasan terhadap konten apabila ada yang perlu diulas
+		      1. Diharapkan dapat menggunakan aplikasi dengan baik
+		      2. Diharapkan dapat memahami konten dengan baik
+		      3. Diharapkan dapat memberikan ulasan terhadap konten apabila ada yang perlu diulas
 	    1.3.2 Penyandang Disabilitas
-		 1. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian sekolah
-		 2. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian pekerjaan
-		 3. Diharapkan penyandang disabilitas mendapatkan perawatan atau pelayanan dari pendamping dengan baik
+		      1. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian sekolah
+		      2. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian pekerjaan
+		      3. Diharapkan penyandang disabilitas mendapatkan perawatan atau pelayanan dari pendamping dengan baik
 	    1.3.2 Pihak sekolah dan perusahaan
-		 1. Diharapkan pihak sekolah dapat melakukan input info sekolah dengan benar
-		 2. Diharapkan perusahaan dapat melakukan input lowongan pekerjaan dengan benar
+		      1. Diharapkan pihak sekolah dapat melakukan input info sekolah dengan benar
+		      2. Diharapkan perusahaan dapat melakukan input lowongan pekerjaan dengan benar
 		 
-	1.4 Definisi, Istilah dan Singkatan 
-	    Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,perlu dijelaskan sebagaimana berikut:
-	    1. IEEE:Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
-	    2. SKPL:Spesifikasi Kebutuhan Perangkat Lunak 
-	    3. SRS:Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi 
-	    spesifikasi kebutuhan pengguna
-            4. Kebutuhan Fungsional:Kebutuhan yang dapat dilakukan oleh admin atau pengguna
-	    5. Kebutuhan Non Fungsional:Fitur yang diberikan oleh pihak pengembang kepada Enable Us
-            6. DFD:Data Flow Diagram. Diagram yang menggambarkan aliran data. 
-	    7. Use Case : Kegiatan atau urutan interaksi yang saling berkaitan antara sistem dan aktor
+  1.4 Definisi, Istilah dan Singkatan 
+      Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,perlu dijelaskan 
+      sebagaimana berikut:
+      Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
 
-	1.5 Sistem Penomoran
-	    Ada beberapa hal dalam dokumen ini yang perlu diberi nomor. Tujuannya untuk mempermudah audience dalam pengidentifikasian. Untuk daftar penamaan Sistem Informasi Perangkat lunak dijelaskan pada tabel dibawah ini :
+		Tabel 1 Definisi, istilah dan singkatan
+		----------------------------------------------------------------------------------------------------------------------------------------
+		|Definisi, Istilah dan/atau Singkatan   | Penjelasan                                                                                   |
+		----------------------------------------------------------------------------------------------------------------------------------------
+		|DFD                                    | Data Flow Diagram. Diagram yang menggambarkan aliran data.                                   |
+		|ERD                                    | Entity Relationship Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya|
+		|Interface                              | Antarmuka antara perangkat lunak dan pengguna    											   |
+		|SKPL									| Spesifikasi Kebutuhan Perangkat Lunak 													   |
+		|Kebutuhan Fungsional					| Kebutuhan yang dapat dilakukan oleh admin atau pengguna 									   |	
+		|Kebutuhan Non Fungsional				| Fitur yang diberikan oleh pihak pengembang kepada Enable Us								   |
+		|Use Case								| Kegiatan atau urutan interaksi yang saling berkaitan antara sistem dan aktor				   |
+		----------------------------------------------------------------------------------------------------------------------------------------
+
+  1.5 Sistem Penomoran
+      Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. Untuk daftar penamaan perangkat lunak dijelaskan pada tabel 
+      dibawah ini :
+		Tabel 2 Aturan penomoran
+		-------------------------------------------------------------------------------------------
+		|Nama-ID                  | Aturan penamaan      | Deskripsi                              |
+		-------------------------------------------------------------------------------------------
+		|Kebutuhan fungsional     | SRS-F-IN/PR/OUT-xxx  | SRS adalah System Requirement Summary, |
+		|                         |                      | F adalah Fungsional                    |
+		|                         |                      | IN menunjukkan operasi Input           |
+		|                         |                      | PR menunjukkan operasi Proses          |
+		|                         |                      | OUT menunjukkan output                 |
+		|                         |                      | xxx adalah nomor SRS                   |
+		|Kebutuhan non fungsional | SRS-NF-IN/PR/OUT-xxx | SRS adalah System Requirement Summary  |
+		|                         |                      | NF adalah non-Fungsional               |
+		|                         |                      | IN menunjukkan operasi Input           |
+		|                         |                      | PR menunjukkan operasi Proses          |
+		|                         |                      | OUT menunjukkan operasi Output         |
+		|                         |                      | xxx adalah nomor SRS                   |
+		|Bubble                   | DFD-X-Y.Z            | DFD adalah Data Flow Diagram           |
+		|                         |                      | X adalah nomor level diagram           |
+		|                         |                      | Y.Z adalah nomer pada buble diagram    |
+		-------------------------------------------------------------------------------------------
 	
-	1.6 Referensi
-	    Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
-	    •IEEE Std. 1233, 1998 Edition IEEE Guide for Developing System Requirements Specifications
-	    •IEEE, Software Requirements Engineering, Second Edition, IEEE Computer Society Press, 2002.
-	    •Bray, Ian K. An Introduction to Requirement Engineering, 1st published, Addison-Wesley, 2002
-	    •Kotonya, Gerald and Sommerville, Ian. Requirement Engineering: Processes and Techniques, John Wiley & Sons Ltd, 1998
-	    •Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
+  1.6 Referensi
+       Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
+	•IEEE Std. 1233, 1998 Edition IEEE Guide for Developing System Requirements Specifications
+	•IEEE, Software Requirements Engineering, Second Edition, IEEE Computer Society Press, 2002.
+	•Bray, Ian K. An Introduction to Requirement Engineering, 1st published, Addison-Wesley, 2002
+	•Kotonya, Gerald and Sommerville, Ian. Requirement Engineering: Processes and Techniques, John Wiley & Sons Ltd, 1998
+	•Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
 
-	1.7 Ikhtisar Dokumen 
-	    Diharapkan dengan pembuatan SKPL Enable Us dapat memberikan pengetahuan serta pemahaman pengelolah dalam melakukan pengoperasian Enable Us dalam penerapanya serta Enable Us dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
+  1.7 Ikhtisar Dokumen 
+      Diharapkan dengan pembuatan SKPL Enable Us dapat memberikan pengetahuan serta pemahaman pengelolah dalam 
+      melakukan pengoperasian Enable Us dalam penerapanya serta Enable Us dapat menjadi solusi yang tepat dalam mengatasi permasalahan 
+      yang ada.
 
 2.Deskripsi Umum
-
-	2.1 Tentang Perangkat Lunak
-	    Enable Us merupakan sistem informasi berbasis android /mobile untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas untuk aktivitas kesehariannya, dengan sistem informasi ini maka pendamping disabilitas dapat mengetahui apa yang mereka butuhkan untuk membantu penyandang disabilitas.Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian sekolah khusus disabilitas dan pencarian lowongan pekerjaan khusus disabilitas.
+  2.1 Tentang Perangkat Lunak
+      Enable Us merupakan sistem informasi berbasis android /mobile untuk membantu pendamping penyandang disabilitas dan penyandang 
+      disabilitas untuk aktivitas kesehariannya, dengan sistem informasi ini maka pendamping disabilitas dapat mengetahui apa yang  
+      mereka butuhkan untuk membantu penyandang disabilitas.Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian 
+      sekolah khusus disabilitasdan pencarian lowongan pekerjaan khusus disabilitas.
  	    
-	2.2 Fungsi - Fungsi Perangkat Lunak
-	    Fungsi utama sistem informasi Enable Us ini yaitu untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas untuk bisa menemukan pekerjaan dan sekolah yang sesuai
+  2.2 Fungsi - Fungsi Perangkat Lunak
+      Fungsi utama sistem informasi Enable Us ini yaitu untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas 
+      untuk bisa menemukan informasi pekerjaan dan sekolah yang sesuai
 									
-	2.3 Karakteristik dan Klasifikasi Pengguna
-	    Hal yang dapat dilakukan pengguna diantaranya adalah:
-	    -Melihat informasi disabilitas
-            -Melihat informasi sekolah
-            -Melihat Informasi pekerjaan
+  2.3 Karakteristik dan Klasifikasi Pengguna
+      Hal yang dapat dilakukan pengguna diantaranya adalah:
+       -Melihat informasi disabilitas
+       -Melihat informasi sekolah
+       -Melihat Informasi pekerjaan
 
-	2.4 Lingkungan Operasi
-	    Aplikasi ini akan berjalan pada spesifikasi:
-	    => Server:
-	      - RAM minimal 2 GB
-	      - Harddisk minimal 75 GB
-	      - Terhubung dengan internet
-	      
-	    => Client:
-	    Android dengan spesifikasi:
-	       - RAM minimal 1 GB
-	       - Harddisk minimal 35 MB
-	       - Terhubung dengan internet
-
-	2.5 Batasan Desain dan Implementasi
-	    Seluruh metode dan teknologi memiliki kekurangan dan kelebihanya masing - masing termasuk dengan sistem berbasis android/mobile yang diadopsi oleh sistem informasi Enable Us batasan yang dimiliki android adalah setiap aktifitas memerlukan kuota serta keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang cukup besar.
+  2.4 Lingkungan Operasi
+      Aplikasi ini akan berjalan pada spesifikasi:
+      => Server:
+	 - RAM minimal 2 GB
+	 - Harddisk minimal 75 GB
+	 - Terhubung dengan internet  
+      => Client:
+	  Android dengan spesifikasi:
+	  - RAM minimal 1 GB
+	  - Harddisk minimal 35 MB
+	  - Terhubung dengan internet
+	       
+  2.5 Batasan Desain dan Implementasi
+      Seluruh metode dan teknologi memiliki kekurangan dan kelebihanya masing - masing termasuk dengan sistem berbasis 
+      android/mobile yang diadopsi oleh sistem informasi Enable Us batasan yang dimiliki android adalah setiap aktifitas memerlukan
+      kuota serta keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang  
+      cukup besar.
 	
-	2.6 Dokumentasi Bagi Pengguna
-	2.7 Asumsi dan Ketergantungan
+  2.6 Dokumentasi Bagi Pengguna
+  2.7 Asumsi dan Ketergantungan
 	    
-		
 3.Deskripsi Kebutuhan
-  	3.1 Kebutuhan Antarmuka Eksternal
-	    3.1.1 Antarmuka Pemakai
-	          User interface yang digunakan untuk mengoperasikan aplikasi ini adalah:
-	          -Tampilan awal 
-                  -Tampilan pencarian informasi disabilitas
-                  -Tampilan pencarian informasi sekolah
-	          -Tampilan pencarian informasi pekerjaan
-	    3.1.2 Antarmuka Perangkat Keras
-	    	  - OS merupakan android
-		  - RAM minimal 1 G
-		  - Memori Internal (harddisk) minimal tersedia 35 MB
-		  - Memiliki fitur GPS
-	    3.1.3 Antarmuka Perangkat Lunak
-	    	  - Database MySQL
-	    3.1.4 Antarmuka Komunikasi
-	    	  - Wifi
+  3.1 Kebutuhan Antarmuka Eksternal
+       3.1.1 Antarmuka Pemakai
+	     User interface yang digunakan untuk mengoperasikan aplikasi ini adalah:
+	      -Tampilan awal 
+              -Tampilan pencarian informasi disabilitas
+              -Tampilan pencarian informasi sekolah
+	      -Tampilan pencarian informasi pekerjaan
+         3.1.2 Antarmuka Perangkat Keras
+	      - OS merupakan android
+              - RAM minimal 1 G
+	      - Memori Internal (harddisk) minimal tersedia 35 MB
+	      - Memiliki fitur GPS
+	 3.1.3 Antarmuka Perangkat Lunak
+	       - Database MySQL
+	 3.1.4 Antarmuka Komunikasi
+	       - Wifi
+			  
+  3.2 Kebutuhan Fungsional
+        3.2.1 Diagram Konteks
+	3.2.2 DFD Level
+        3.2.3 Spesifikasi Proses
+        3.2.4.Data Store
+	 
+  3.3 Kebutuhan Data
+       3.3.1 E-R diagram
 
-        3.2 DFD
-            3.2.1 Diagram Konteks
-	    3.2.2 DFD Level
-            3.2.3 Spesifikasi Proses
-	    3.2.4.Data Store
+  3.4 Kebutuhan Non-Fungsional
+		------------------------------------------------------------------------------------------------------------------------------------
+		|ID            | Parameter     | 									Deskripsi                                    		    	   |
+		------------------------------------------------------------------------------------------------------------------------------------
+		|SRS-F-OUT-001 | Availability  | Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal        |
+		|SRS-F-PR-002  | Reliability   | Jika user salah memasukan akun, maka sistem tidak akan jalan	 						       	   |
+		|SRS-F-OUT-003 | Ergonomy      | Tampilan antar muka sederhana, responsive, dan mudah difahami oleh pengguna                       |
+		|SRS-F-OUT-004 | Portability   | Sistem dapat dipakai di semua platform yang sudah terinstall browser           			       |
+		|SRS-F-PR-005  | Memory        | Sistem dapat menyimpan username dan password                          						       |
+		|SRS-F-PR-006  | Response time | proses perhitungan data untuk menampilkan persentase kecocokan dijalankan tidak lebih dari 5 detik|
+		|SRS-F-PR-007  | Security      | Perangkat lunak menggunakan standar enkripsi HTTPS                             				   |
+		------------------------------------------------------------------------------------------------------------------------------------
+		    
+  3.5 Batasan Perancangan
+      Adapun batasan dalam perancangan aplikasi ini antara lain:
+      - Tampilan web dibuat dengan menggunakan Photoshop dan Corel Draw.
+      - Text editor yang digunakan adalah Notepad++ dan/atau Sublime Text.
+      - Bahasa Pemrograman yang digunakan adalah PHP, MySQL dan HTML
+	     
+  3.6 Kerunutan (traceability)
+      3.6.1 Data Store vs E-R	 
 
-	3.3 Kebutuhan Data
-	    3.3.1 E-R diagram
+  3.7 Ringkasan Kebutuhan 
+      Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.
+      Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, 
+      karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhannya.
+      3.7.1 Kebutuhan Fungsional
+		-------------------------------------------------------------------------------------------------------------------------------------
+		|		ID      | 												Deskripsi                                    						|
+		-------------------------------------------------------------------------------------------------------------------------------------
+		|SRS-F-IN-001   | Sistem dapat mengizinkan user memberi ulasan ketika sudah login                              						|
+		|SRS-F-IN-002   | Sistem mengizinkan user menginputkan lowongan pekerjaan baru dengan konfirmasi dan validasi oleh sistem dan admin |
+		|SRS-F-IN-003   | Sistem mengizinkan user menginputkan sekolah baru dengan konfirmasi dan validasi oleh sistem dan admin            |
+		|SRS-F-PR-004   | Sistem mengizinkan user mencari info disabilitas 																	|
+		|SRS-F-PR-005   | Sistem mengizinkan user mencari info sekolah untuk disabilitas yang terdekat                             			| 
+		|SRS-F-PR-006   | Sistem mengizinkan user mencari info lowongan kerja    															|
+		|SRS-F-OUT-007  | Sistem menampilkan daftar yang dicari user 																		|
+		-------------------------------------------------------------------------------------------------------------------------------------
 
-        3.4 Kebutuhan Fungsional
-	    - Sistem dapat dijalankan di platform android
-	    - Sistem memiliki antarmuka yang mudah dipahami
-	    - Kebutuhan RAM minimal 1 GB
-	    - System memudahkan user untuk mencari informasi sekolah dan lowongan pekerjaan untuk penyandang disabilitas
-	    - Sistem tidak menyediakan pembuatan akun pengguna
-	    - Hanya admin yang dapat merubah isi konten
-	    
-	3.5 Batasan Perancangan
-	    Adapun batasan dalam perancangan aplikasi ini antara lain:
-	    - Tampilan web dibuat dengan menggunakan Photoshop dan Corel Draw.
-	    - Text editor yang digunakan adalah Notepad++ dan/atau Sublime Text.
-	    - Bahasa Pemrograman yang digunakan adalah PHP, MySQL dan HTML
-
-        3.6 Kerunutan
-            3.6.1 Data Store vs E-R
+      3.7.2 Kebutuhan Non Fungsional
+		---------------------------------------------------------------------------------------------------------------------------
+		|		ID     | 											Deskripsi                             						  |
+		---------------------------------------------------------------------------------------------------------------------------
+		|SRS-F-IN-008  | Setiap interaksi user dengan sistem dapat di load dengan cepat                                   		  |
+		|SRS-F-IN-009  | Hanya admin yang bisa merubah isi / konten																  |
+		|SRS-F-OUT-010 | Sistem mengizinkan semua pengguna tanpa terkecuali                                 					  |
+		|SRS-F-OUT-011 | Sistem dapat menampilkan daftar sekolah dan lowongan pekerjaan hanya yang tersedia dan khusus disabilitas|
+		|SRS-F-IN-012  | Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan           |                           
+		---------------------------------------------------------------------------------------------------------------------------
 		 
-
-        3.7 Ringkasan Kebutuhan 
-	    Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.
-	    Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, 
-            karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhannya.
-            3.7.1 Kebutuhan Fungsional
-		  1)Sistem dapat mengizinkan user memberi ulasan ketika sudah login
-		  2)Sistem mengizinkan user menginputkan lowongan pekerjaan baru dengan konfirmasi dan validasi oleh sistem dan admin
-		  3)Sistem mengizinkan user menginputkan sekolah baru dengan konfirmasi dan validasi oleh sistem dan admin
-		  4)Sistem mengizinkan user mencari info disabilitas
-		  5)Sistem mengizinkan user mencari info sekolah untuk disabilitas yang terdekat
-		  6)Sistem mengizinkan user mencari info lowongan kerja
-		  7)Sistem menampilkan daftar yang dicari user
-
-            3.7.2 Kebutuhan Non Fungsional
-		  1)Setiap interaksi user dengan sistem dapat di load dengan cepat
-		  2)Hanya admin yang bisa merubah isi / konten.
-		  3)Sistem mengizinkan semua pengguna tanpa terkecuali
-	          4)Sistem dapat menampilkan daftar sekolah dan lowongan pekerjaan hanya yang tersedia dan khusus disabilitas
-	          5)Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan
 
 		  
             
