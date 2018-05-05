@@ -12,8 +12,12 @@ sebagai kelengkapan Tugas Akhir prodi S1 Teknik Informatika
 Mata Kuliah Analisis dan Desain Sistem			
 										
 Abstrak:
-Hampir semua penyandang disabilitas membutuhkan bantuan pembantu atau pendamping untuk aktivitas kesehariannya, maka dari itu perlu untuk membuat sistem informasi untuk membantu memberikan informasi-informasi tentang kebiasaan dan kebutuhan penyandang disabilitas, dengan ini maka pendamping disabilitas dapat mengetahui apa yang mereka butuhkan untuk membantu penyandang disabilitas.Penyandang disabilitas juga mempunyai  kebutuhan untuk menjalani aktivitas sehari-hari layaknya orang normal, antara lain yaitu kebutuhan untuk mencari ilmu, dan mencari nafkah atau bekerja.Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian sekolah khusus disabilitas dan pencarian lowongan pekerjaan khusus disabilitas.
- 
+Hampir semua penyandang disabilitas membutuhkan bantuan pembantu atau pendamping untuk aktivitas kesehariannya, maka dari itu perlu untuk
+membuat sistem informasi untuk membantu memberikan informasi-informasi tentang kebiasaan dan kebutuhan penyandang disabilitas, dengan ini maka
+pendamping disabilitas dapat mengetahui apa yang mereka butuhkan untuk membantu penyandang disabilitas.Penyandang disabilitas juga mempunyai 
+kebutuhan untuk menjalani aktivitas sehari-hari layaknya orang normal, antara lain yaitu kebutuhan untuk mencari ilmu, dan mencari nafkah atau bekerja.
+Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian sekolah khusus disabilitas dan pencarian lowongan pekerjaan khusus disabilitas.
+
 1.Pendahuluan 
   1.1 Tujuan
       1. Pendamping disabilitas mengerti apa yang harus dilakukan untuk merawat penyandang disabilitas
@@ -28,59 +32,58 @@ Hampir semua penyandang disabilitas membutuhkan bantuan pembantu atau pendamping
        Dokumen ini ditujukan kepada pendamping penyandang disabilitas untuk dipahami, penyandang disabilitas untuk kebutuhan mencari 
        pekerjaan dan sekolah,pihak sekolah dan instansi atau perusahaan untuk dapat melakukan input lowongan sekolah atau lowongan  
        pekerjaan khusus disabilitas.
-	    1.3.1 Pendamping Penyandang Disabilitas
-		      1. Diharapkan dapat menggunakan aplikasi dengan baik
-		      2. Diharapkan dapat memahami konten dengan baik
-		      3. Diharapkan dapat memberikan ulasan terhadap konten apabila ada yang perlu diulas
-	    1.3.2 Penyandang Disabilitas
-		      1. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian sekolah
-		      2. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian pekerjaan
-		      3. Diharapkan penyandang disabilitas mendapatkan perawatan atau pelayanan dari pendamping dengan baik
-	    1.3.2 Pihak sekolah dan perusahaan
-		      1. Diharapkan pihak sekolah dapat melakukan input info sekolah dengan benar
-		      2. Diharapkan perusahaan dapat melakukan input lowongan pekerjaan dengan benar
+       1.3.1 Pendamping Penyandang Disabilitas
+             1. Diharapkan dapat menggunakan aplikasi dengan baik
+	     2. Diharapkan dapat memahami konten dengan baik
+             3. Diharapkan dapat memberikan ulasan terhadap konten apabila ada yang perlu diulas
+       1.3.2 Penyandang Disabilitas
+	     1. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian sekolah
+	     2. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian pekerjaan
+	     3. Diharapkan penyandang disabilitas mendapatkan perawatan atau pelayanan dari pendamping dengan baik
+       1.3.3 Pihak sekolah dan perusahaan
+	     1. Diharapkan pihak sekolah dapat melakukan input info sekolah dengan benar
+	     2. Diharapkan perusahaan dapat melakukan input lowongan pekerjaan dengan benar
 		 
   1.4 Definisi, Istilah dan Singkatan 
       Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,perlu dijelaskan 
       sebagaimana berikut:
       Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
 
-		Tabel 1 Definisi, istilah dan singkatan
-		----------------------------------------------------------------------------------------------------------------------------------------
-		|Definisi, Istilah dan/atau Singkatan   | Penjelasan                                                                                   |
-		----------------------------------------------------------------------------------------------------------------------------------------
-		|DFD                                    | Data Flow Diagram. Diagram yang menggambarkan aliran data.                                   |
-		|ERD                                    | Entity Relationship Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya|
-		|Interface                              | Antarmuka antara perangkat lunak dan pengguna    											   |
-		|SKPL									| Spesifikasi Kebutuhan Perangkat Lunak 													   |
-		|Kebutuhan Fungsional					| Kebutuhan yang dapat dilakukan oleh admin atau pengguna 									   |	
-		|Kebutuhan Non Fungsional				| Fitur yang diberikan oleh pihak pengembang kepada Enable Us								   |
-		|Use Case								| Kegiatan atau urutan interaksi yang saling berkaitan antara sistem dan aktor				   |
-		----------------------------------------------------------------------------------------------------------------------------------------
+      Tabel 1 Definisi, istilah dan singkatan
+----------------------------------------------------------------------------------------------------------------------------------------
+|Definisi, Istilah dan/atau Singkatan   | Penjelasan                                                                                   |
+----------------------------------------------------------------------------------------------------------------------------------------
+|DFD                                    | Data Flow Diagram. Diagram yang menggambarkan aliran data.                                   |
+|ERD                                    | Entity Relationship Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya|
+|Interface                              | Antarmuka antara perangkat lunak dan pengguna  		   			       |
+|SKPL					| Spesifikasi Kebutuhan Perangkat Lunak 						       |
+|Kebutuhan Fungsional			| Kebutuhan yang dapat dilakukan oleh admin atau pengguna 	              	               | |Kebutuhan Non Fungsional	         | Fitur yang diberikan oleh pihak pengembang kepada Enable Us			                |
+|Use Case				| Kegiatan atau urutan interaksi yang saling berkaitan antara sistem dan aktor		       |
+----------------------------------------------------------------------------------------------------------------------------------------
 
   1.5 Sistem Penomoran
       Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. Untuk daftar penamaan perangkat lunak dijelaskan pada tabel 
       dibawah ini :
-		Tabel 2 Aturan penomoran
-		-------------------------------------------------------------------------------------------
-		|Nama-ID                  | Aturan penamaan      | Deskripsi                              |
-		-------------------------------------------------------------------------------------------
-		|Kebutuhan fungsional     | SRS-F-IN/PR/OUT-xxx  | SRS adalah System Requirement Summary, |
-		|                         |                      | F adalah Fungsional                    |
-		|                         |                      | IN menunjukkan operasi Input           |
-		|                         |                      | PR menunjukkan operasi Proses          |
-		|                         |                      | OUT menunjukkan output                 |
-		|                         |                      | xxx adalah nomor SRS                   |
-		|Kebutuhan non fungsional | SRS-NF-IN/PR/OUT-xxx | SRS adalah System Requirement Summary  |
-		|                         |                      | NF adalah non-Fungsional               |
-		|                         |                      | IN menunjukkan operasi Input           |
-		|                         |                      | PR menunjukkan operasi Proses          |
-		|                         |                      | OUT menunjukkan operasi Output         |
-		|                         |                      | xxx adalah nomor SRS                   |
-		|Bubble                   | DFD-X-Y.Z            | DFD adalah Data Flow Diagram           |
-		|                         |                      | X adalah nomor level diagram           |
-		|                         |                      | Y.Z adalah nomer pada buble diagram    |
-		-------------------------------------------------------------------------------------------
+      Tabel 2 Aturan penomoran
+	-------------------------------------------------------------------------------------------
+	|Nama-ID                  | Aturan penamaan      | Deskripsi                              |
+	-------------------------------------------------------------------------------------------
+	|Kebutuhan fungsional     | SRS-F-IN/PR/OUT-xxx  | SRS adalah System Requirement Summary, |
+	|                         |                      | F adalah Fungsional                    |
+	|                         |                      | IN menunjukkan operasi Input           |
+	|                         |                      | PR menunjukkan operasi Proses          |
+	|                         |                      | OUT menunjukkan output                 |
+	|                         |                      | xxx adalah nomor SRS                   |
+	|Kebutuhan non fungsional | SRS-NF-IN/PR/OUT-xxx | SRS adalah System Requirement Summary  |
+	|                         |                      | NF adalah non-Fungsional               |
+	|                         |                      | IN menunjukkan operasi Input           |
+	|                         |                      | PR menunjukkan operasi Proses          |
+	|                         |                      | OUT menunjukkan operasi Output         |
+	|                         |                      | xxx adalah nomor SRS                   |
+	|Bubble                   | DFD-X-Y.Z            | DFD adalah Data Flow Diagram           |
+	|                         |                      | X adalah nomor level diagram           |
+	|                         |                      | Y.Z adalah nomer pada buble diagram    |
+	-------------------------------------------------------------------------------------------
 	
   1.6 Referensi
        Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
@@ -161,17 +164,17 @@ Hampir semua penyandang disabilitas membutuhkan bantuan pembantu atau pendamping
        3.3.1 E-R diagram
 
   3.4 Kebutuhan Non-Fungsional
-		------------------------------------------------------------------------------------------------------------------------------------
-		|ID            | Parameter     | 									Deskripsi                                    		    	   |
-		------------------------------------------------------------------------------------------------------------------------------------
-		|SRS-F-OUT-001 | Availability  | Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal        |
-		|SRS-F-PR-002  | Reliability   | Jika user salah memasukan akun, maka sistem tidak akan jalan	 						       	   |
-		|SRS-F-OUT-003 | Ergonomy      | Tampilan antar muka sederhana, responsive, dan mudah difahami oleh pengguna                       |
-		|SRS-F-OUT-004 | Portability   | Sistem dapat dipakai di semua platform yang sudah terinstall browser           			       |
-		|SRS-F-PR-005  | Memory        | Sistem dapat menyimpan username dan password                          						       |
-		|SRS-F-PR-006  | Response time | proses perhitungan data untuk menampilkan persentase kecocokan dijalankan tidak lebih dari 5 detik|
-		|SRS-F-PR-007  | Security      | Perangkat lunak menggunakan standar enkripsi HTTPS                             				   |
-		------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+|ID            | Parameter     | 			Deskripsi                 						   |
+------------------------------------------------------------------------------------------------------------------------------------
+|SRS-F-OUT-001 | Availability  | Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal        |
+|SRS-F-PR-002  | Reliability   | Jika user salah memasukan akun, maka sistem tidak akan jalan	 				   |
+|SRS-F-OUT-003 | Ergonomy      | Tampilan antar muka sederhana, responsive, dan mudah difahami oleh pengguna                       |
+|SRS-F-OUT-004 | Portability   | Sistem dapat dipakai di semua platform yang sudah terinstall browser           		   |
+|SRS-F-PR-005  | Memory        | Sistem dapat menyimpan username dan password                          				   |
+|SRS-F-PR-006  | Response time | proses perhitungan data untuk menampilkan persentase kecocokan dijalankan tidak lebih dari 5 detik|
+|SRS-F-PR-007  | Security      | Perangkat lunak menggunakan standar enkripsi HTTPS                             		   |
+------------------------------------------------------------------------------------------------------------------------------------
 		    
   3.5 Batasan Perancangan
       Adapun batasan dalam perancangan aplikasi ini antara lain:
@@ -187,28 +190,28 @@ Hampir semua penyandang disabilitas membutuhkan bantuan pembantu atau pendamping
       Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, 
       karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhannya.
       3.7.1 Kebutuhan Fungsional
-		-------------------------------------------------------------------------------------------------------------------------------------
-		|		ID      | 												Deskripsi                                    						|
-		-------------------------------------------------------------------------------------------------------------------------------------
-		|SRS-F-IN-001   | Sistem dapat mengizinkan user memberi ulasan ketika sudah login                              						|
-		|SRS-F-IN-002   | Sistem mengizinkan user menginputkan lowongan pekerjaan baru dengan konfirmasi dan validasi oleh sistem dan admin |
-		|SRS-F-IN-003   | Sistem mengizinkan user menginputkan sekolah baru dengan konfirmasi dan validasi oleh sistem dan admin            |
-		|SRS-F-PR-004   | Sistem mengizinkan user mencari info disabilitas 																	|
-		|SRS-F-PR-005   | Sistem mengizinkan user mencari info sekolah untuk disabilitas yang terdekat                             			| 
-		|SRS-F-PR-006   | Sistem mengizinkan user mencari info lowongan kerja    															|
-		|SRS-F-OUT-007  | Sistem menampilkan daftar yang dicari user 																		|
-		-------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
+|	ID      | 						Deskripsi                                    		            |
+-------------------------------------------------------------------------------------------------------------------------------------
+|SRS-F-IN-001   | Sistem dapat mengizinkan user memberi ulasan ketika sudah login                              			    |
+|SRS-F-IN-002   | Sistem mengizinkan user menginputkan lowongan pekerjaan baru dengan konfirmasi dan validasi oleh sistem dan admin |
+|SRS-F-IN-003   | Sistem mengizinkan user menginputkan sekolah baru dengan konfirmasi dan validasi oleh sistem dan admin            |
+|SRS-F-PR-004   | Sistem mengizinkan user mencari info disabilitas 							      	    |
+|SRS-F-PR-005   | Sistem mengizinkan user mencari info sekolah untuk disabilitas yang terdekat                            	    | 
+|SRS-F-PR-006   | Sistem mengizinkan user mencari info lowongan kerja    						    	    |
+|SRS-F-OUT-007  | Sistem menampilkan daftar yang dicari user 								    	    |
+-------------------------------------------------------------------------------------------------------------------------------------
 
       3.7.2 Kebutuhan Non Fungsional
-		---------------------------------------------------------------------------------------------------------------------------
-		|		ID     | 											Deskripsi                             						  |
-		---------------------------------------------------------------------------------------------------------------------------
-		|SRS-F-IN-008  | Setiap interaksi user dengan sistem dapat di load dengan cepat                                   		  |
-		|SRS-F-IN-009  | Hanya admin yang bisa merubah isi / konten																  |
-		|SRS-F-OUT-010 | Sistem mengizinkan semua pengguna tanpa terkecuali                                 					  |
-		|SRS-F-OUT-011 | Sistem dapat menampilkan daftar sekolah dan lowongan pekerjaan hanya yang tersedia dan khusus disabilitas|
-		|SRS-F-IN-012  | Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan           |                           
-		---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+|	ID     | 						Deskripsi            					  |
+---------------------------------------------------------------------------------------------------------------------------
+|SRS-F-IN-008  | Setiap interaksi user dengan sistem dapat di load dengan cepat                                   	  |
+|SRS-F-IN-009  | Hanya admin yang bisa merubah isi / konten								  |
+|SRS-F-OUT-010 | Sistem mengizinkan semua pengguna tanpa terkecuali                                 		          |
+|SRS-F-OUT-011 | Sistem dapat menampilkan daftar sekolah dan lowongan pekerjaan hanya yang tersedia dan khusus disabilitas|
+|SRS-F-IN-012  | Hanya user yang telah login yang dapat memberikan ulasan ketika hendak melakukan submit ulasan           |             
+---------------------------------------------------------------------------------------------------------------------------
 		 
 
 		  
