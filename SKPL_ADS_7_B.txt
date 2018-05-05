@@ -56,7 +56,7 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 |ERD                                    | Entity Relationship Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya|
 |Interface                              | Antarmuka antara perangkat lunak dan pengguna  		   			       |
 |SKPL					| Spesifikasi Kebutuhan Perangkat Lunak 						       |
-|IEEE 					| Institute of Electrical and Electronics Engineers	              	                       | |SRS 				         | Dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna     |
+|IEEE 					| Institute of Electrical and Electronics Engineers	              	                       | 
 |Use Case				| Kegiatan atau urutan interaksi yang saling berkaitan antara sistem dan aktor		       |
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -64,25 +64,25 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
       Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. Untuk daftar penamaan perangkat lunak dijelaskan pada tabel 
       dibawah ini:
       Tabel 2 Aturan penomoran
-	-------------------------------------------------------------------------------------------
-	|Nama-ID                  | Aturan penamaan      | Deskripsi                              |
-	-------------------------------------------------------------------------------------------
-	|Kebutuhan fungsional     | SRS-F-IN/PR/OUT-xxx  | SRS adalah System Requirement Summary, |
-	|                         |                      | F adalah Fungsional                    |
-	|                         |                      | IN menunjukkan operasi Input           |
-	|                         |                      | PR menunjukkan operasi Proses          |
-	|                         |                      | OUT menunjukkan output                 |
-	|                         |                      | xxx adalah nomor SRS                   |
-	|Kebutuhan non fungsional | SRS-NF-IN/PR/OUT-xxx | SRS adalah System Requirement Summary  |
-	|                         |                      | NF adalah non-Fungsional               |
-	|                         |                      | IN menunjukkan operasi Input           |
-	|                         |                      | PR menunjukkan operasi Proses          |
-	|                         |                      | OUT menunjukkan operasi Output         |
-	|                         |                      | xxx adalah nomor SRS                   |
-	|Bubble                   | DFD-X-Y.Z            | DFD adalah Data Flow Diagram           |
-	|                         |                      | X adalah nomor level diagram           |
-	|                         |                      | Y.Z adalah nomer pada buble diagram    |
-	-------------------------------------------------------------------------------------------
+      -------------------------------------------------------------------------------------------
+      |Nama-ID                  | Aturan penamaan      | Deskripsi                              |
+      -------------------------------------------------------------------------------------------
+      |Kebutuhan fungsional     | SRS-F-IN/PR/OUT-xxx  | SRS adalah System Requirement Summary, |
+      |                         |                      | F adalah Fungsional                    |
+      |                         |                      | IN menunjukkan operasi Input           |
+      |                         |                      | PR menunjukkan operasi Proses          |
+      |                         |                      | OUT menunjukkan output                 |
+      |                         |                      | xxx adalah nomor SRS                   |
+      |Kebutuhan non fungsional | SRS-NF-IN/PR/OUT-xxx | SRS adalah System Requirement Summary  |
+      |                         |                      | NF adalah non-Fungsional               |
+      |                         |                      | IN menunjukkan operasi Input           |
+      |                         |                      | PR menunjukkan operasi Proses          |
+      |                         |                      | OUT menunjukkan operasi Output         |
+      |                         |                      | xxx adalah nomor SRS                   |
+      |Bubble                   | DFD-X-Y.Z            | DFD adalah Data Flow Diagram           |
+      |                         |                      | X adalah nomor level diagram           |
+      |                         |                      | Y.Z adalah nomer pada buble diagram    |
+      -------------------------------------------------------------------------------------------
 	
   1.6 Referensi
        Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
