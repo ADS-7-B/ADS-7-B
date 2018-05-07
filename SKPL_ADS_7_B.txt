@@ -161,13 +161,13 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 |SRS-F-IN-002 | Sistem mengizinkan user menginputkan lowongan pekerjaan baru   |Pengguna dapat memasukkan lowongan pekerjaan untuk  |
 |             | dengan konfirmasi dan validasi oleh sistem dan admin           |disabilitas apabilas sudah dikonfirmasi dan         |
 |	      |								       |divalidasi oleh admin              		    |
-|SRS-F-IN-003 | Sistem mengizinkan user menginputkan sekolah baru dengan       |Pengguna dapat memasukkan sekolah untuk	disabilitas |         
-|             | konfirmasi dan validasi oleh sistem dan admin                  |apabila sudah dikonfirmasi dan divalidasi oleh admin|           
+|SRS-F-IN-003 | Sistem mengizinkan user menginputkan sekolah baru dengan       |Pengguna dapat memasukkan sekolah untuk	disabilitas |  
+|             | konfirmasi dan validasi oleh sistem dan admin                  |apabila sudah dikonfirmasi dan divalidasi oleh admin|   
 |SRS-F-PR-004 | Sistem mengizinkan user mencari info disabilitas 	       |Pengguna dapat mencari informasi tentang disabilitas|
-|SRS-F-PR-005 | Sistem mengizinkan user mencari info sekolah untuk disabilitas |Pengguna dapat mencari informasi tentang sekolah    |	    
+|SRS-F-PR-005 | Sistem mengizinkan user mencari info sekolah untuk disabilitas |Pengguna dapat mencari informasi tentang sekolah    |	 
 |             | yang terdekat                            	               |terdekat khusus penyandang sisabilitas	            |	
-|SRS-F-PR-006 | Sistem mengizinkan user mencari info lowongan kerja    	       |Pengguna dapat mencari informasi tentang lowongan   |	                |	      |                                                                |pekerjaan khusus penyandang disabilitas	            |
-|SRS-F-OUT-007| Sistem menampilkan daftar yang dicari user 		       |Jika pengguna ingin mengetahui informasi yang dicari|                        |             |				                                    |pengguna dapat melihatnya di daftar                 |
+|SRS-F-PR-006 | Sistem mengizinkan user mencari info lowongan kerja    	       |Pengguna dapat mencari informasi tentang lowongan   |	 |	       |                                                                |pekerjaan khusus penyandang disabilitas             |
+|SRS-F-OUT-007| Sistem menampilkan daftar yang dicari user 		       |Jika pengguna ingin mengetahui informasi yang dicari|    |             |				                                |pengguna dapat melihatnya di daftar                 |
 -------------------------------------------------------------------------------------------------------------------------------------
         3.2.1 Diagram Konteks
 	
