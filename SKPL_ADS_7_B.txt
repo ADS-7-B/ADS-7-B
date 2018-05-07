@@ -109,7 +109,7 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
       untuk bisa menemukan informasi pekerjaan dan sekolah yang sesuai
 									
   2.3 Karakteristik dan Klasifikasi Pengguna
-      Hal yang dapat dilakukan pengguna diantaranya adalah:
+      Hal yang dapat dilakukan pengguna diantaranya adalah :
        -Melihat informasi disabilitas
        -Melihat informasi sekolah
        -Melihat Informasi pekerjaan
@@ -131,7 +131,6 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
       android/mobile yang diadopsi oleh sistem informasi Enable Us batasan yang dimiliki android adalah setiap aktifitas memerlukan
       kuota serta keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang  
       cukup besar.
-	
   2.6 Dokumentasi Bagi Pengguna
   2.7 Asumsi dan Ketergantungan
 	    
@@ -154,17 +153,43 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 	       - Wifi
 			  
   3.2 Kebutuhan Fungsional
+-------------------------------------------------------------------------------------------------------------------------------------
+|     ID      |				 Kebutuhan                             |		     Penjelasan			    |
+-------------------------------------------------------------------------------------------------------------------------------------
+|SRS-F-IN-001 | Sistem dapat mengizinkan user memberi ulasan ketika sudah login|Pengguna dapat memberikan ulasan tentang disabilitas|
+|	      |								       |apabila sebelumya sudah melakukan login		    |
+|SRS-F-IN-002 | Sistem mengizinkan user menginputkan lowongan pekerjaan baru   |Pengguna dapat memasukkan lowongan pekerjaan untuk  |
+|             | dengan konfirmasi dan validasi oleh sistem dan admin           |disabilitas apabilas sudah dikonfirmasi dan         |
+|	      |								       |divalidasi oleh admin              		    |
+|SRS-F-IN-003 | Sistem mengizinkan user menginputkan sekolah baru dengan       |Pengguna dapat memasukkan sekolah untuk	disabilitas |	  | 		| konfirmasi dan validasi oleh sistem dan admin                  |apabila sudah dikonfirmasi dan divalidasi oleh admin|	
+|SRS-F-PR-004 | Sistem mengizinkan user mencari info disabilitas 	       |Pengguna dapat mencari informasi tentang disabilitas|
+|SRS-F-PR-005 | Sistem mengizinkan user mencari info sekolah untuk disabilitas |Pengguna dapat mencari informasi tentang sekolah    |	  | 		| yang terdekat                            	                 |terdekat khusus penyandang sisabilitas	      |	
+|SRS-F-PR-006 | Sistem mengizinkan user mencari info lowongan kerja    	       |Pengguna dapat mencari informasi tentang lowongan   |	|	      |			    	            			       |pekerjaan khusus penyandang disabilitas	            |
+|SRS-F-OUT-007| Sistem menampilkan daftar yang dicari user 		       |Jika pengguna ingin mengetahui informasi yang dicari|    |	       |                         				        |pengguna dapat melihatnya di daftar                 |
+-------------------------------------------------------------------------------------------------------------------------------------
         3.2.1 Diagram Konteks
+	
 	3.2.2 DFD Level
+	      (Lampiran)
         3.2.3 Spesifikasi Proses
+	
         3.2.4.Data Store
+----------------------------------------------------------------------------------------------------------------------------------------
+|   Data Store   |						 Deskripsi                                                             |
+----------------------------------------------------------------------------------------------------------------------------------------
+|Data User       |Ketika pengguna selesai melakukan proses register, maka data akan tersimpan pada store ini. dimana data hanya berupa |
+|                |username dan password dari user                                                                                      |
+|Info Disabilitas|Berisi deskripsi tentang pekerjdaan dan sekolah khusus penyandang disabilitas yang dicari                            |
+|Produk          |Berisi tentang ulasan artikel tentang disabilitas                                                                    |
+|Kategori        |Berisi data tentang pengkategorian jenis-jenis disabilitas                                                           |
+----------------------------------------------------------------------------------------------------------------------------------------
 	 
   3.3 Kebutuhan Data
        3.3.1 E-R diagram
-
+	     (Lampiran)
   3.4 Kebutuhan Non-Fungsional
 ------------------------------------------------------------------------------------------------------------------------------------
-|ID            | Parameter     | 			Deskripsi                 						   |
+|      ID      |   Parameter   | 			                  Deskripsi                 				   |
 ------------------------------------------------------------------------------------------------------------------------------------
 |SRS-F-OUT-001 | Availability  | Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal        |
 |SRS-F-PR-002  | Reliability   | Jika user salah memasukan akun, maka sistem tidak akan jalan	 				   |
@@ -182,6 +207,7 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
       - Bahasa Pemrograman yang digunakan adalah PHP, MySQL dan HTML
 	     
   3.6 Kerunutan (traceability)
+      Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya.
       3.6.1 Data Store vs E-R	 
 
   3.7 Ringkasan Kebutuhan 
