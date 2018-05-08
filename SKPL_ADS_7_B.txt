@@ -101,7 +101,7 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
       |Kategori Pengguna                    | Tugas                                            | Hak Akses Aplikasi    |
       ------------------------------------------------------------------------------------------------------------------
       |Pendamping & Penyandang Disabilitas  | Melihat informasi sekolah dan lowongan pekerjaan | Melakukan pendaftaran |
-      |Admin                                | Mengisi dan memperbaharui informasi/data         | Sign sebagai admin    |
+      |User                                 | Mengisi dan memperbaharui informasi/data         | Sign sebagai User     |
       ------------------------------------------------------------------------------------------------------------------
 									
   2.3 Batasan
@@ -194,8 +194,15 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 	     
   3.5 Kerunutan (traceability)
       Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya.
-      3.6.1 Data Store vs E-R	 
-
+      3.5.1 Data Store vs E-R	 
+      -------------------------------------------------------------------------------------------------
+      |Data store 			| entity 				|	relasi	      |
+      -------------------------------------------------------------------------------------------------
+      |Data_User			|User 					|		      |
+      |Data_Disabilitas			|Disabilitas				|		      |
+      |Data_Sekolah			|Informasi Sekolah			|		      |
+      |Data_Lowongan Pekerjaan		|Informasi Lowongan Pekerjaan		|		      |
+      -------------------------------------------------------------------------------------------------
   3.6 Ringkasan Kebutuhan 
       Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.
       Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, 
