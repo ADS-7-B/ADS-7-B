@@ -20,7 +20,10 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 
 1.Pendahuluan 
   1.1 Tujuan Penulisan Dokumen
-      Tujuan dari penulisan dokumen ini adalah menjabarkan spesifikasi kebutuhan khusus perangkat lunak yang akan dibangun yakni berupa  Sistem Informasi untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas mencari informasi sekolah dan lowongan pekerjaan.penjabaran spesifikasi perangkat lunak meliputi deskripsi umum mengenai perangkat lunak dan deskripsi kebutuhan perangkat lunak. Adanya penjabaran dan penspesifikasian kebutuhan perangkat lunak sangat dibutuhkan dalam pembangunan sebuah perangkat lunak, khususnya bagi para pengembang dan pembangun perangkat lunak tersebut.
+      Tujuan dari penulisan dokumen ini adalah menjabarkan spesifikasi kebutuhan khusus perangkat lunak yang akan dibangun yakni berupa       Sistem Informasi untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas mencari informasi sekolah dan   
+      lowongan pekerjaan.penjabaran spesifikasi perangkat lunak meliputi deskripsi umum mengenai perangkat lunak dan deskripsi kebutuhan 
+      perangkat lunak. Adanya penjabaran dan penspesifikasian kebutuhan perangkat lunak sangat dibutuhkan dalam pembangunan sebuah 
+      perangkat lunak, khususnya bagi para pengembang dan pembangun perangkat lunak tersebut.
       
   1.2 Lingkup Masalah
       Sistem informasi ini menyediakan beberapa informasi tentang disabilitas serta solusi untuk mengatasi masalah tersebut, 
@@ -75,8 +78,15 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 	•Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
 
   1.6 Deskripsi umum Dokumen (Ikhtisar)
-      Dalam penyusuan dokumen SKPL ini terbagi dalam beberapa bagian besar diantaranya adalah pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.Bagian pendahuluan berisi tujuan penulisan dokumen dimana dalam sub bab ini menjelaskan alasan mengapa dokumen ditulis, lingkupan masalah yang berisi pengertian dari perangkat lunak yang akan dibuat, definisi, istilah dan singkatan yang akan digunakan dalam dokumen, aturan penomoran tabel dan gambar, list refrensi yang digunakan sebgaai rujukan, dan ikhtisar dokumen.
-Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari perangkat lunak yang akan dibuat, karakteristik pengguna, batasan-batasan yang dipakai, dan lingkup operasi yang telah ditentukan.Bagian deskripsi kebutuhand dalam dokumen ini meliputi kebutuha antar muka eksternal, kebutuhan fungsional yang digambarkan dengan menggunakan Data Flow Diagram (DFD), kebutuhan non-fugsional, kebutuhan data, batasan perancangan, keruntunan yang digambarkan berdasarkan mapping kebutuhan fungsional dengan proses pada DFD dan mapping data store DFD dengan Entity-Relational Diagram, dan ringkasan dari kebutuhan perangkat.
+      Dalam penyusuan dokumen SKPL ini terbagi dalam beberapa bagian besar diantaranya adalah pendahuluan, deskripsi umum perangkat 
+      lunak, dan deskripsi kebutuhan.Bagian pendahuluan berisi tujuan penulisan dokumen dimana dalam sub bab ini menjelaskan alasan 
+      mengapa dokumen ditulis, lingkupan masalah yang berisi pengertian dari perangkat lunak yang akan dibuat, definisi, istilah dan 
+      singkatan yang akan digunakan dalam dokumen, aturan penomoran tabel dan gambar, list refrensi yang digunakan sebgaai rujukan, dan 
+      ikhtisar dokumen.Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari perangkat lunak yang akan dibuat, karakteristik 
+      pengguna, batasan-batasan yang dipakai, dan lingkup operasi yang telah ditentukan.Bagian deskripsi kebutuhand dalam dokumen ini 
+      meliputi kebutuha antar muka eksternal, kebutuhan fungsional yang digambarkan dengan menggunakan Data Flow Diagram (DFD), 
+      kebutuhan non-fugsional, kebutuhan data, batasan perancangan, keruntunan yang digambarkan berdasarkan mapping kebutuhan fungsional 
+      dengan proses pada DFD dan mapping data store DFD dengan Entity-Relational Diagram, dan ringkasan dari kebutuhan perangkat.
 
 2.Deskripsi Umum Perangkat Lunak
   2.1 Deskripsi Umum Sistem
@@ -115,7 +125,8 @@ Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari perangkat lunak
   3.1 Kebutuhan Antarmuka Eksternal
        3.1.1 Antarmuka Pemakai
 	     User interface yang digunakan untuk mengoperasikan aplikasi ini adalah:
-	     -Tampilan awal 
+	     -Tampilan login
+	     -Tampilan halaman utama 
              -Tampilan pencarian informasi disabilitas
              -Tampilan pencarian informasi sekolah
 	     -Tampilan pencarian informasi pekerjaan
