@@ -19,32 +19,14 @@ kebutuhan untuk menjalani aktivitas sehari-hari layaknya orang normal, antara la
 Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian sekolah khusus disabilitas dan pencarian lowongan pekerjaan khusus disabilitas.
 
 1.Pendahuluan 
-  1.1 Tujuan
-      1. Pendamping disabilitas mengerti apa yang harus dilakukan untuk merawat penyandang disabilitas
-      2. Penyandang disabilitas bisa menemukan pekerjaan yang sesuai
-      3. Penyandang disabilitas bisa menemukan sekolah yang sesuai
-      
-  1.2 Ruang Lingkup Perangkat Lunak
+  1.1 Tujuan Penulisan Dokumen
+      Tujuan dari penulisan dokumen ini adalah menjabarkan spesifikasi kebutuhan khusus perangkat lunak yang akan dibangun yakni berupa  Sistem Informasi untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas mencari informasi sekolah dan lowongan pekerjaan.penjabaran spesifikasi perangkat lunak meliputi deskripsi umum mengenai perangkat lunak dan deskripsi kebutuhan perangkat lunak. Adanya penjabaran dan penspesifikasian kebutuhan perangkat lunak sangat dibutuhkan dalam pembangunan sebuah perangkat lunak, khususnya bagi para pengembang dan pembangun perangkat lunak tersebut.
+      
+  1.2 Lingkup Masalah
       Sistem informasi ini menyediakan beberapa informasi tentang disabilitas serta solusi untuk mengatasi masalah tersebut, 
       disediakan juga beberapa informasi mengenai sekolah dan pekerjaan yang ditujukan khusus untuk penyandang disabilitas.
 
-  1.3 Target Audience 
-       Dokumen ini ditujukan kepada pendamping penyandang disabilitas untuk dipahami, penyandang disabilitas untuk kebutuhan mencari 
-       pekerjaan dan sekolah,pihak sekolah dan instansi atau perusahaan untuk dapat melakukan input lowongan sekolah atau lowongan  
-       pekerjaan khusus disabilitas.
-       1.3.1 Pendamping Penyandang Disabilitas
-             1. Diharapkan dapat menggunakan aplikasi dengan baik
-	     2. Diharapkan dapat memahami konten dengan baik
-             3. Diharapkan dapat memberikan ulasan terhadap konten apabila ada yang perlu diulas
-       1.3.2 Penyandang Disabilitas
-	     1. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian sekolah
-	     2. Diharapkan penyandang disabilitas mendapatkan sekolah dari fitur pencarian pekerjaan
-	     3. Diharapkan penyandang disabilitas mendapatkan perawatan atau pelayanan dari pendamping dengan baik
-       1.3.3 Pihak sekolah dan perusahaan
-	     1. Diharapkan pihak sekolah dapat melakukan input info sekolah dengan benar
-	     2. Diharapkan perusahaan dapat melakukan input lowongan pekerjaan dengan benar
-		 
-  1.4 Definisi, Istilah dan Singkatan 
+  1.3 Definisi, Istilah dan Singkatan
       Guna memberikan gambaran yang sama terhadap beberapa definisi,istilah dan singkatan yang digunakan di dokumen ini,perlu dijelaskan 
       sebagaimana berikut:
       Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
@@ -60,7 +42,7 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 |Use Case				| Kegiatan atau urutan interaksi yang saling berkaitan antara sistem dan aktor		       |
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-  1.5 Sistem Penomoran
+  1.4 Aturan Penomoran
       Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. Untuk daftar penamaan perangkat lunak dijelaskan pada tabel 
       dibawah ini:
       Tabel 2 Aturan penomoran
@@ -84,36 +66,39 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
       |                         |                      | Y.Z adalah nomer pada buble diagram    |
       -------------------------------------------------------------------------------------------
 	
-  1.6 Referensi
-       Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
+  1.5 Referensi
+      Berikut adalah daftar acuan yang digunakan dalam pendokumentasian spesifikasi kebutuhan perangkat lunak ini.
 	•IEEE Std. 1233, 1998 Edition IEEE Guide for Developing System Requirements Specifications
 	•IEEE, Software Requirements Engineering, Second Edition, IEEE Computer Society Press, 2002.
 	•Bray, Ian K. An Introduction to Requirement Engineering, 1st published, Addison-Wesley, 2002
 	•Kotonya, Gerald and Sommerville, Ian. Requirement Engineering: Processes and Techniques, John Wiley & Sons Ltd, 1998
 	•Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
 
-  1.7 Ikhtisar Dokumen 
-      Diharapkan dengan pembuatan SKPL Enable Us dapat memberikan pengetahuan serta pemahaman pengelolah dalam 
-      melakukan pengoperasian Enable Us dalam penerapanya serta Enable Us dapat menjadi solusi yang tepat dalam mengatasi permasalahan 
-      yang ada.
+  1.6 Deskripsi umum Dokumen (Ikhtisar)
+      Dalam penyusuan dokumen SKPL ini terbagi dalam beberapa bagian besar diantaranya adalah pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.Bagian pendahuluan berisi tujuan penulisan dokumen dimana dalam sub bab ini menjelaskan alasan mengapa dokumen ditulis, lingkupan masalah yang berisi pengertian dari perangkat lunak yang akan dibuat, definisi, istilah dan singkatan yang akan digunakan dalam dokumen, aturan penomoran tabel dan gambar, list refrensi yang digunakan sebgaai rujukan, dan ikhtisar dokumen.
+Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari perangkat lunak yang akan dibuat, karakteristik pengguna, batasan-batasan yang dipakai, dan lingkup operasi yang telah ditentukan.Bagian deskripsi kebutuhand dalam dokumen ini meliputi kebutuha antar muka eksternal, kebutuhan fungsional yang digambarkan dengan menggunakan Data Flow Diagram (DFD), kebutuhan non-fugsional, kebutuhan data, batasan perancangan, keruntunan yang digambarkan berdasarkan mapping kebutuhan fungsional dengan proses pada DFD dan mapping data store DFD dengan Entity-Relational Diagram, dan ringkasan dari kebutuhan perangkat.
 
-2.Deskripsi Umum
-  2.1 Tentang Perangkat Lunak
+2.Deskripsi Umum Perangkat Lunak
+  2.1 Deskripsi Umum Sistem
       Enable Us merupakan sistem informasi berbasis android /mobile untuk membantu pendamping penyandang disabilitas dan penyandang 
       disabilitas untuk aktivitas kesehariannya, dengan sistem informasi ini maka pendamping disabilitas dapat mengetahui apa yang  
       mereka butuhkan untuk membantu penyandang disabilitas.Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian 
       sekolah khusus disabilitasdan pencarian lowongan pekerjaan khusus disabilitas.
  	    
-  2.2 Fungsi - Fungsi Perangkat Lunak
-      Fungsi utama sistem informasi Enable Us ini yaitu untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas 
-      untuk bisa menemukan informasi pekerjaan dan sekolah yang sesuai
+  2.2 Karekteristik Pengguna
+      ------------------------------------------------------------------------------------------------------------------
+      |Kategori Pengguna                    | Tugas                                            | Hak Akses Aplikasi    |
+      ------------------------------------------------------------------------------------------------------------------
+      |Pendamping & Penyandang Disabilitas  | Melihat informasi sekolah dan lowongan pekerjaan | Melakukan pendaftaran |
+      |Admin                                | Mengisi dan memperbaharui informasi/data         | Sign sebagai admin    |
+      ------------------------------------------------------------------------------------------------------------------
 									
-  2.3 Karakteristik dan Klasifikasi Pengguna
-      Hal yang dapat dilakukan pengguna diantaranya adalah :
-       -Melihat informasi disabilitas
-       -Melihat informasi sekolah
-       -Melihat Informasi pekerjaan
-
+  2.3 Batasan
+      Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Bartasan-batasan tersebut antara lain:
+      1. Harus login terlebih dahulU jika ingin melihat informasi tentang disabilitas yang dicari
+      2. Aplikasi hanya berbasis mobile
+      3. Tidak ada auto correct pada akun, jadi jika penulisan akunnya salah maka tidak akan diproses
+      
   2.4 Lingkungan Operasi
       Aplikasi ini akan berjalan pada spesifikasi:
       => Server:
@@ -125,32 +110,24 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 	  - RAM minimal 1 GB
 	  - Harddisk minimal 35 MB
 	  - Terhubung dengan internet
-	       
-  2.5 Batasan Desain dan Implementasi
-      Seluruh metode dan teknologi memiliki kekurangan dan kelebihanya masing - masing termasuk dengan sistem berbasis 
-      android/mobile yang diadopsi oleh sistem informasi Enable Us batasan yang dimiliki android adalah setiap aktifitas memerlukan
-      kuota serta keterbatasan desain yang harus menyesuaikan dengan hosting karena desain yang bagus tentu membutuhkan storage yang  
-      cukup besar.
-  2.6 Dokumentasi Bagi Pengguna
-  2.7 Asumsi dan Ketergantungan
-	    
+	      
 3.Deskripsi Kebutuhan
   3.1 Kebutuhan Antarmuka Eksternal
        3.1.1 Antarmuka Pemakai
 	     User interface yang digunakan untuk mengoperasikan aplikasi ini adalah:
-	      -Tampilan awal 
-              -Tampilan pencarian informasi disabilitas
-              -Tampilan pencarian informasi sekolah
-	      -Tampilan pencarian informasi pekerjaan
-         3.1.2 Antarmuka Perangkat Keras
-	      - OS merupakan android
-              - RAM minimal 1 G
-	      - Memori Internal (harddisk) minimal tersedia 35 MB
-	      - Memiliki fitur GPS
-	 3.1.3 Antarmuka Perangkat Lunak
-	       - Database MySQL
-	 3.1.4 Antarmuka Komunikasi
-	       - Wifi
+	     -Tampilan awal 
+             -Tampilan pencarian informasi disabilitas
+             -Tampilan pencarian informasi sekolah
+	     -Tampilan pencarian informasi pekerjaan
+       3.1.2 Antarmuka Perangkat Keras
+	     -OS merupakan android
+             -RAM minimal 1 G
+	     -Memori Internal (harddisk) minimal tersedia 35 MB
+	     -Memiliki fitur GPS
+       3.1.3 Antarmuka Perangkat Lunak
+	     -Database MySQL
+       3.1.4 Antarmuka Komunikasi
+	     -Wifi
 			  
   3.2 Kebutuhan Fungsional
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -168,7 +145,7 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 |             | yang terdekat                            	               |terdekat khusus penyandang sisabilitas	            |
 |SRS-F-PR-006 | Sistem mengizinkan user mencari info lowongan kerja    	       |Pengguna dapat mencari informasi tentang lowongan   |
 |	      |                                                                |pekerjaan khusus penyandang disabilitas             |
-|SRS-F-OUT-007| Sistem menampilkan daftar yang dicari user 		       |Jika pengguna ingin mengetahui informasi yang dicari|    
+|SRS-F-OUT-007| Sistem menampilkan daftar yang dicari user 		       |Jika pengguna ingin mengetahui informasi yang dicari|   
 |             |	                                                               |pengguna dapat melihatnya di daftar                 |
 -------------------------------------------------------------------------------------------------------------------------------------
         3.2.1 DFD Konteks
