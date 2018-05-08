@@ -20,10 +20,11 @@ Oleh karena itu dalam aplikasi yang akan dibangun, terdapat fitur pencarian seko
 
 1.Pendahuluan 
   1.1 Tujuan Penulisan Dokumen
-      Tujuan dari penulisan dokumen ini adalah menjabarkan spesifikasi kebutuhan khusus perangkat lunak yang akan dibangun yakni berupa       Sistem Informasi untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas mencari informasi sekolah dan   
-      lowongan pekerjaan.penjabaran spesifikasi perangkat lunak meliputi deskripsi umum mengenai perangkat lunak dan deskripsi kebutuhan 
-      perangkat lunak. Adanya penjabaran dan penspesifikasian kebutuhan perangkat lunak sangat dibutuhkan dalam pembangunan sebuah 
-      perangkat lunak, khususnya bagi para pengembang dan pembangun perangkat lunak tersebut.
+      Tujuan dari penulisan dokumen ini adalah menjabarkan spesifikasi kebutuhan khusus perangkat lunak yang akan dibangun yakni   
+      berupa Sistem Informasi untuk membantu pendamping penyandang disabilitas dan penyandang disabilitas mencari informasi sekolah 
+      dan lowongan pekerjaan.penjabaran spesifikasi perangkat lunak meliputi deskripsi umum mengenai perangkat lunak dan deskripsi 
+      kebutuhan perangkat lunak. Adanya penjabaran dan penspesifikasian kebutuhan perangkat lunak sangat dibutuhkan dalam pembangunan 
+      sebuah perangkat lunak, khususnya bagi para pengembang dan pembangun perangkat lunak tersebut.
       
   1.2 Lingkup Masalah
       Sistem informasi Enable Us ini menyediakan beberapa informasi tentang disabilitas serta solusi untuk mengatasi masalah tersebut, 
